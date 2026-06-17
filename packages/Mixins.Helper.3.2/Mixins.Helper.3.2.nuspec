@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Mixins.Helper</id>
+    <version>3.2</version>
+    <title>Mixins.Helper</title>
+    <authors>amastaneh</authors>
+    <owners>amastaneh</owners>
+    <projectUrl>https://github.com/amastaneh/Mixins.Helper</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/amastaneh/Mixins.Helper/master/mixins.helper.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mixins.Helper is a basic and useful collection of Less Mixins Functions that are used to redeuce the work needed to apply styling to elements and cross-browser CSS compatibility. Mixins.Helper comes with a visual studio and microsoft friendly NuGet package.</description>
+    <summary>Mixins.Helper is a basic and useful collection of Less Mixins Functions that are used to redeuce the work needed to apply styling to elements and cross-browser CSS compatibility.</summary>
+    <tags>Less Mixins CSS3</tags>
+  </metadata>
+</package>

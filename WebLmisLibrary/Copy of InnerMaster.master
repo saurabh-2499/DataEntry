@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Copy of InnerMaster.master.cs"
+    Inherits="InnerMaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="mr-IN" xml:lang="mr-IN">
+<head id="Head1" runat="server">
+    <%-- <meta name="keywords" content="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,बोजा फेरफार ,तहसिलदार,तलाठी,सर्कल ऑफिसर,तालुका ,जिल्हा,गाव,खाता,वारस,अंगठा तपासनी,७/१२ प्रमाणीत करणे,फ़ेरफ़ार रद्द करणे,
+  तलाठि शेरा,७/१२ पहा" />
+    <title>.::राष्ट्रीय भूमि अभिलेख आधुनिकीकरण कार्यक्रम,महाराष्ट्र राज्य::.</title>
+    <link href="CSS/dropdown.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" id="themestyle" runat="server" />
+    <script language="javascript" type="text/javascript" src="Javascript/textsizer.js"></script>--%>
+
+    <script type="text/javascript" language="javascript">
+javascript:window.history.forward(1)
+    </script>
+    <%-- <meta http-equiv="content-type" content="text/html; charset=utf-8" />  --%>
+    <meta name="keywords" content="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,बोजा फेरफार ,तहसिलदार,तलाठी,सर्कल ऑफिसर,तालुका ,जिल्हा,गाव,खाता,वारस,अंगठा तपासनी,७/१२ प्रमाणीत करणे,फ़ेरफ़ार रद्द करणे,
+  तलाठि शेरा,७/१२ पहा" />
+    <title>.::राष्ट्रीय भूमि अभिलेख आधुनिकीकरण कार्यक्रम,महाराष्ट्र राज्य::.</title>
+    <link href="CSS/FloatingKeyboard.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="JavaScript/textsizer.js"></script>
+
+    <script type="text/javascript" src="JavaScript/Support.js"></script>
+
+    <script type="text/javascript" src="JavaScript/LanguagesArray.js"></script>
+
+    <link href="CSS/dropdown.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" id="themestyle" runat="server" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <%--<script type="text/javascript" language="javascript">
+javascript:window.history.forward(1)
+</script> --%>
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <form id="form1" runat="server">
+      <%--  <p>   A timeout warning popup will be shown every <%= Session.Timeout -1 %> min. </p>--%>
+       <%-- <uc1:TimeoutControl ID="TimeoutControl1" runat="server" />--%>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div class="headBG">
+            <div class="headerTop">
+                <div class="topLinks">
+                    <ul class="other_links">
+                        <li>
+                            <asp:ImageButton ID="ImageButton1" AlternateText="प्रखर दृश्य" runat="server" ImageUrl="~/Image/black.jpg"
+                                OnClick="ImageButton1_Click" CausesValidation="False" />
+                        </li>
+                        <li>
+                            <asp:ImageButton ID="ImageButton2" AlternateText="सौम्य दृश्य" ImageUrl="~/Image/blue.jpg"
+                                runat="server" CausesValidation="False" OnClick="ImageButton2_Click" />
+                        </li>
+                        <li>&nbsp;&nbsp;&nbsp;<a href="javascript:ts('body',-1)"><span>अ-</span></a> |</li>
+                        <li><a href="javascript:normal('body',2)"><span>अ</span></a>&nbsp;|</li>
+                        <li><a href="javascript:ts('body',1)"><span>अ+</span></a></li>
+                        <li><a href="#Navigation1" title="दिशादर्शकाकडे जा" class="whitetext">दिशादर्शकाकडे
+                            जा</a></li>
+                        <li><a href="#Navigation" title="मुख्य लेखावर जा" class="whitetext">मुख्य विषयाकडे जा</a></li>
+                        <li>
+                            <label onclick="openKeyboard();" title="मराठी किबोर्ड" class="form_lbl" style="width: 39px">
+                                मराठी किबोर्ड</label><br />
+                            <div id="keyBrd">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+            <div class="headMid">
+                <div class="depName" style="height: 75px; width: 75px;">
+                    <a href="https://www.maharashtra.gov.in" class="govLogo">
+                        <img id="HeaderMain1_ImgGovtLogo" style="height: 75px; width: 75px;" title="महाराष्ट्र शासनाचे बोधचिन्ह"
+                            alt="महाराष्ट्र शासनाचे बोधचिन्ह" src="" runat="server" />
+                    </a>
+                </div>
+                <div class="depNameR">
+                    <a href="http://india.gov.in/" target="_blank"><span>
+                        <img id="HeaderMain1_ImgEmblem" title="भारत सरकार (भारत सरकारच्या पोर्टलवर)" src="" alt="भारत सरकार (भारत सरकारच्या पोर्टलवर)"
+                            style="height: 84px;" runat="server" /></span> </a>
+                </div>
+                <center>
+                    <span>
+                        <asp:Label ID="Label3" runat="server" CssClass="header_text1" Text="महाराष्ट्र राज्य"></asp:Label>
+                        <br />
+                        <asp:Label ID="Label1" runat="server" Text="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम"
+                            CssClass="form_header_txt"></asp:Label>
+                        <br />
+                        <asp:Label ID="Label4" runat="server" Text="ऑनलाइन फेरफार" CssClass="header_text1"></asp:Label>
+                    </span>
+                </center>
+                <div class="clear">
+                    <br />
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+            <div id="Navigation1">
+                <div id="cssmenu" style="width: 100%; margin: 0 auto">
+               <ul>
+                        <li>
+                            <asp:LinkButton ID="LinkButton2" runat="server" Text="मुख्य पृष्ठ" CssClass="bluebtn"
+                                ></asp:LinkButton>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="LinkButton1" runat="server" Text="डाटाबेस ओनलाइन करणे" CssClass="bluebtn"></asp:LinkButton></li>
+                    <%--  </li>
+                        
+                          <asp:LinkButton ID="LinkButton4" runat="server" OnClick="" Text="फेरफारची माहिती" CssClass="bluebtn"></asp:LinkButton>--%>
+                        
+                         <li class='bluebtn'><a href="../usercreation/Redirect.aspx" class='bluebtn' title="फेरफार कर्मचारी नोंद करणे">फेरफार कर्मचारी नोंद करणे</a></li>
+                  <li>
+                            <asp:LinkButton ID="lnkbtndigisig" runat="server"  Text="डिजिटल सिज्नेचर रजिस्टर करणे" CssClass="bluebtn" OnClick="lnkbtndigisig_Click"></asp:LinkButton>
+                        </li>
+                                
+                                
+                                <%--    <li><a href=" " class='bluebtn' title="डिजिटल सिज्नेचर रजिस्टर करणे">डिजिटल सीग्नेचर रजिस्टर करणे </a></li>  --%>
+                      <%--                     <li class='last'><a href="../EditModule/pgWelCome.aspx" class='bluebtn' title="ऎडीट फ़ेरफ़ार">डाटा अपडेशन
+                            मॊडयूल</a></li>--%>
+                           
+                                              <li class='bluebtn'><a href="../crop/pgRedirectPage.aspx" class='bluebtn' title="ऎडीट फ़ेरफ़ार">मास्टर टेबल भरणे</a></li>
+                                             <li class='bluebtn'><a href="pgMutationRollback.aspx" class="bluebtn" title="७/१२">फेरफार रोलब्याक करणे</a></li>
+                                             
+                            
+                      
+                     <%--   <li>
+                            <asp:LinkButton ID="imgNotice9" runat="server" OnClick="imgNotice9_Click" Text="नमुना-9 नोटीस "
+                                CssClass="bluebtn"></asp:LinkButton></li>--%>
+                        <li>
+                            <asp:LinkButton ID="btnlogout" runat="server"  OnClick="btnlogout_Click" Text="बाहेर पडा"
+                                CssClass="bluebtn"></asp:LinkButton></li>
+                              <%--   <li class='last'><a href="../PrintUtility/Login.aspx" class='bluebtn_small' title="७/१२ पहा">७/१२ इतीहास पहाणे</a></li>--%>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both">
+        </div>
+        <div class="stripe">
+        </div>
+        <div id="Navigation">
+            <div id="Content" class="container_upper">
+                <asp:Label ID="lblusername" runat="server" CssClass="form_lbl"></asp:Label>                
+                <div class="clear"> 
+                              
+                </div>
+                <div class="leftPanel">
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    <asp:Label ID="Label2" Text="तुम्ही आता येथे आहात:" runat="server" CssClass="form_lbl"></asp:Label>
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="sitemap">
+                    </asp:SiteMapPath>
+                </div>
+                <div class="clear">
+                    <br />
+                </div>
+                <center>
+                    <asp:Label ID="lblheading_pg" runat="server" CssClass="form_bl_color"></asp:Label>
+                </center>
+            </div>
+            <div style="clear: both">
+            </div>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="bottomBG">
+                <div class="footerTop">
+                    <div class="footerLeft">
+                        <center>
+                            <ul class="bottomLink">
+                                <li><a href="../Help.aspx">मदत ।</a></li>
+                                <li><a href="../AboutUs.aspx">आमच्या विषयी | </a></li>
+                                <li><a href="../pgImpInofmation.aspx">गुप्तता धोरण | </a></li>
+                                <li><a href="../pgImpInofmation.aspx">वेबसाईट वापराच्या अटी |</a></li>
+                                <li><a href="../sitmap.aspx">वेबसाईट मार्ग निर्देशक | </a></li>
+                                <li><a href="../Contactus.aspx">संपर्क</a></li>
+                            </ul>
+                            <span id="FooterMenu1_lbl_copyright" class="copyRight">DISCLAIMER :Content on this website
+                                is owned, published and managed by Revenue & Forest Department Maharashtra State.
+                                For any query regarding this website Please Contact the Web Information Manager.
+                                <br />
+                                Best Viewed in 1024x768 Last modified on &nbsp;&nbsp;01.10.2012</span></center>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

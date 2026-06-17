@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6379EEB-5178-43F7-B5E2-8C4ADCDA1FFE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NIC.WebLMISLibrary</RootNamespace>
+    <AssemblyName>NIC.WebLMISLibrary</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files\Microsoft Visual Studio 8\Team Tools\Static Analysis Tools\FxCop\\rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Administrator\Desktop\Activex &amp; Sign pdf\Activex &amp; Sign pdf\Active X\pdf_code\bin\Debug\EnCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>bin\Debug\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=1.97.1.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\PdfSign18102013\Bin\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckDataPendingMutation.cs" />
+    <Compile Include="ClassCropInfo.cs" />
+    <Compile Include="ClassStatusQuery.cs" />
+    <Compile Include="cls712ColseOpen.cs" />
+    <Compile Include="clsAmalgamation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBoja.cs" />
+    <Compile Include="clsBojaAadeshane.cs" />
+    <Compile Include="clsBojaKamiKarane.cs" />
+    <Compile Include="ClsBuyerDetail.cs" />
+    <Compile Include="clscommonfun1.cs" />
+    <Compile Include="clsCommonFunctions.cs" />
+    <Compile Include="clscommonfunctionsfaq.cs" />
+    <Compile Include="clscommonfunfaq.cs" />
+    <Compile Include="clsForms.cs" />
+    <Compile Include="clsFrom1A.cs" />
+    <Compile Include="clshakkasod.cs" />
+    <Compile Include="clsHakSod.cs" />
+    <Compile Include="clsHistory.cs" />
+    <Compile Include="clsIkrar.cs" />
+    <Compile Include="clsKharedi.cs" />
+    <Compile Include="clsLREntry.cs" />
+    <Compile Include="clsNA.cs" />
+    <Compile Include="clsNameChangeRajPatrane.cs" />
+    <Compile Include="clsNoticeGen.cs" />
+    <Compile Include="clsReport.cs" />
+    <Compile Include="clsSMSHandler.cs" />
+    <Compile Include="clsTaran.cs" />
+    <Compile Include="clsVadiVibhajan.cs" />
+    <Compile Include="clsVapratBadal.cs" />
+    <Compile Include="clsWaras.cs" />
+    <Compile Include="clsLease.cs" />
+    <Compile Include="clsJapti.cs" />
+    <Compile Include="clsPunrvasan.cs" />
+    <Compile Include="clsSubdivision.cs" />
+    <Compile Include="clsTenureChange.cs" />
+    <Compile Include="clsGahanKhat.cs" />
+    <Compile Include="objCertify.cs" />
+    <Compile Include="clscommonfun.cs" />
+    <Compile Include="clsCommonFunc.cs" />
+    <Compile Include="clsCommonFunction.cs" />
+    <Compile Include="clsCommonFunctionBoja.cs" />
+    <Compile Include="clscommonfunedit.cs" />
+    <Compile Include="clsContentType.cs" />
+    <Compile Include="clsFingerData.cs" />
+    <Compile Include="clsform12.cs" />
+    <Compile Include="clsInputEntry.cs" />
+    <Compile Include="clsLoginChecking.cs" />
+    <Compile Include="clsMutationLr.cs" />
+    <Compile Include="clsmutationprocess.cs" />
+    <Compile Include="clsNotice9.cs" />
+    <Compile Include="ClsSellerDetail.cs" />
+    <Compile Include="clsUserCreation.cs" />
+    <Compile Include="clsUserRegister.cs" />
+    <Compile Include="ClsVarsInformation.cs" />
+    <Compile Include="DBHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="weblmisrary.suo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pg712.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="pg712.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="pg712_view.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="pg712_view.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
