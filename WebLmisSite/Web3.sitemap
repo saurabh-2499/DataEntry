@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="pgLREntry.aspx" title="फेरफार संबंधी माहिती"  description="फेरफार संबंधी माहिती">
+        <siteMapNode url="pgNoticeVB.aspx" title="फेरफार नोंदवही"  description="फेरफार नोंदवही" />
+        <!--<siteMapNode url="" title=""  description="" />-->
+    </siteMapNode>
+</siteMap>

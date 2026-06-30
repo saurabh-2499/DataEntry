@@ -1,0 +1,62 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+/// <summary>
+/// Summary description for clsDateTime
+/// </summary>
+public class clsDateTime
+{
+    public clsDateTime()
+    {
+        //
+        // TODO: Add constructor logic here
+        //
+    }
+
+    public DateTime ConvertDateToMMddyyyyFormat(string strDate)
+    {
+        string[] strarrDate;
+        char[] charseperator = new char[2];
+        charseperator[0] = '/';
+        charseperator[1] = '-';
+        //    charseperator[0] =
+        string strFinalDate;
+        try
+        {
+            strarrDate = strDate.Split(charseperator);
+            strFinalDate = strarrDate[1] + "/" + strarrDate[0] + "/" + strarrDate[2];
+            return (Convert.ToDateTime(strFinalDate));
+        }
+        catch
+        {
+            return (Convert.ToDateTime(strDate));
+        }
+        return DateTime.Now;
+    }
+    public string ConvertDateToddMMyyyyFormat(string strDate)
+    {
+        string[] strarrDate;
+        char[] charseperator = new char[2];
+        charseperator[0] = '/';
+        charseperator[1] = '-';
+        //    charseperator[0] =
+        string strFinalDate;
+        try
+        {
+            strarrDate = strDate.Split(charseperator);
+            strFinalDate = strarrDate[1] + "/" + strarrDate[0] + "/" + strarrDate[2];
+            return (Convert.ToString(strFinalDate));
+        }
+        catch
+        {
+            return (Convert.ToString(strDate));
+        }
+    }
+}

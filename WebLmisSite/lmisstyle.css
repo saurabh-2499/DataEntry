@@ -1,0 +1,26 @@
+.label
+{
+	font-size: medium;
+	/*font-family: Mangal;*/
+	font-family: Sakal Marathi;
+	
+}
+.lnklabel
+{
+	color: #3300cc;
+	font-size: medium;
+	/*font-family: Mangal;*/
+	font-family: Sakal Marathi;
+}
+
+
+
+.gridHeader
+{ 
+POSITION: relative; 
+/*IE5+ only*/ 
+background-color:Red;
+
+z-index: 99; 
+}
+

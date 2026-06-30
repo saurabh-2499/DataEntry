@@ -1,0 +1,31 @@
+﻿body {
+}
+
+.row
+{
+	width:100%;
+}
+
+.column
+{
+	margin-left: 5%;
+	width:10%;
+	float:left;
+}
+
+.column_wom
+{
+	width:23%;
+	float:left;
+}
+
+.clear
+{
+	margin-bottom:2px;
+	clear:both;
+	
+}
+.drop
+{
+	width:55%;
+}

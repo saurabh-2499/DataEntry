@@ -1,0 +1,183 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="weblmis.master.cs" Inherits="weblmis" %>
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server" lang="mr">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,बोजा फेरफार ,तहसिलदार,तलाठी,सर्कल ऑफिसर,तालुका ,जिल्हा,गाव,खाता,वारस,अंगठा तपासनी,७/१२ प्रमाणीत करणे,फ़ेरफ़ार रद्द करणे,
+  तलाठि शेरा,७/१२ पहा" />
+ <title>.::राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,महाराष्ट्र राज्य::.</title>
+ <link href="MainpageStyleSheet.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="stylescript/style.css"  type="text/css" />
+<link id="Link1" rel="stylesheet" href="stylescript/StyleSheet.css" type="text/css" runat="server" />
+<script type="text/javascript"  src="stylescript/InputCheck.js"></script>   
+<script type="text/javascript"  src="stylescript/InputCheck.js"></script> 
+<link href="CSS/FloatingKeyboard.css" rel="stylesheet" type="text/css" />
+ <link href="CSS/dropdown.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" id="themestyle" runat="server" />
+<script language="javascript" type="text/javascript" src="Javascript/textsizer.js"></script>
+<script language="javascript" type="text/javascript" src="JavaScript/Support.js"></script>
+<script type="text/javascript" language="javascript">
+javascript:window.history.forward(1)
+</script> 
+  <meta http-equiv="Expires" content="0" />
+   <meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- 1  16-12-2015 script for logout when user close the browser-->
+ <script language="JavaScript" type="text/javascript">
+     var x;
+     var y;
+     window.onclick = clicked;
+     window.onkeypress = keypress;
+
+     function clicked() {
+         x = window.event.clientX;
+         y = window.event.clientY;
+     }
+
+     function keypress() {
+         x = 1;
+         y = 1;
+     }
+
+     window.onbeforeunload = windowclose;
+
+
+     function windowclose() {
+         var newwindow;
+         if ((x < 0 || x == undefined) && (y < 0 || y == undefined)) {
+             if ((window.event.clientX < 0 || window.event.clientX == undefined) && (window.event.clientY < 0 || window.event.clientY == undefined)) {
+                 if (confirm("कृपया, आपले काम पूर्ण झाल्यावर \"बाहेर पडा/ Log out\" या पर्यायाचा वापर करावा.")) {
+                     newwindow = window.open("pgLogout.aspx", "myWindow", "width=1600, height=996, toolbar = yes, resizable = yes");
+                     if (newwindow != null && !newwindow.closed && newwindow.closed != undefined) {
+                         
+                         return;
+                     }
+                     else
+                         windowclose();
+                 }
+                 else {
+                     newwindow = window.open("pgLogout.aspx", "myWindow", "width=1600, height=996, toolbar = yes, resizable = yes");
+                     if (newwindow != null && !newwindow.closed && newwindow.closed != undefined) {
+                         
+                         return;
+                     }
+                     else
+                         windowclose();
+
+                 }
+             }
+         }
+     }
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"  AsyncPostBackTimeout="360">
+        </asp:ScriptManager>
+        <div>
+   <div id="header">
+                 <div class="depName" >
+                    <a href="" class="govLogo">
+                        <img id="HeaderMain1_ImgGovtLogo" style="width:100px; height:112px;" title="महाराष्ट्र शासनाचे बोधचिन्ह"
+                            alt="महाराष्ट्र शासनाचे बोधचिन्ह" src="" runat="server" />
+                    </a>
+                </div>
+
+                
+                <div class="depNameR">
+                    <a href="" target="_blank"><span>
+                        <img id="HeaderMain1_ImgEmblem" style="width:100px; height:112px;"  title="भारत सरकार (भारत सरकारच्या पोर्टलवर)" src="" alt="भारत सरकार (भारत सरकारच्या पोर्टलवर)"
+                             runat="server" /></span> </a>
+                </div>
+               
+                <asp:Label ID="Label2" runat="server" CssClass="header_text1" Text="महाराष्ट्र राज्य"></asp:Label><br />
+                <asp:Label ID="Label1" runat="server" Text="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम"
+                    CssClass="form_header_txt"></asp:Label>
+            </div>
+            <div>
+                <div id="theme_option">
+                    <asp:LinkButton ID="lnkblue" runat="server" OnClick="lnkblue_Click" CssClass="theme_color_1">&nbsp;&nbsp;&nbsp;&nbsp;</asp:LinkButton>&nbsp;
+                    <asp:LinkButton ID="lnkgreen" runat="server" OnClick="lnkgreen_Click" CssClass="theme_color_2">&nbsp;&nbsp;&nbsp;&nbsp;</asp:LinkButton>&nbsp;
+                    <asp:LinkButton ID="lnkgray" runat="server" OnClick="lnkgray_Click" CssClass="theme_color_3">&nbsp;&nbsp;&nbsp;&nbsp;</asp:LinkButton>&nbsp;
+                </div>
+                <div class="menu">
+                <ul>
+                    <li class="lnk_a"><a href="../MainPage.aspx" title="मुख्य पृष्ठ">मुख्य पृष्ठ </a></li>
+                    <li class="nonlnk_a"><a>&nbsp;| &nbsp;</a></li>
+                    <li class="lnk_a"><a title="भु.अ. - नॊंदणी विभाग जोडणी">भु.अ. - नॊंदणी विभाग जोडणी</a>
+                        <ul>
+                            <%--<li><a href="../eLinkage/pgLogin.aspx" title="भु.अ.नॊंदनी विभाग जोडणी (डि.स)">भु.अ.नॊंदनी
+                                विभाग जोडणी (डि.स)</a></li>--%>
+                            <li><a href="../eLinkagewd/pgLogin.aspx" title="भु.अ. - नॊंदणी विभाग जोडणी">भु.अ. - नॊंदणी
+                                विभाग जोडणी</a></li>
+                        </ul>
+                    </li>
+                    <li class="nonlnk_a"><a>&nbsp;| &nbsp;</a></li>
+                    <li class="lnk_a"><a href="../mutation/pgWelCome.aspx" title="ई - फ़ेरफ़ार">ई - फ़ेरफ़ार</a></li>
+                    <li class="nonlnk_a"><a>&nbsp;| &nbsp;</a></li>
+                    <li class="lnk_a"><a href="../EditModule/pgWelCome.aspx" title="ऎडीट फ़ेरफ़ार">ऎडीट फ़ेरफ़ार</a></li>
+                    <li class="nonlnk_a"><a>&nbsp;| &nbsp;</a></li>
+                    <li class="lnk_a"><a href="../UserManul.aspx" title="मार्गदर्शिका खंड">मार्गदर्शिका खंड</a></li>
+                    <li class="nonlnk_a"><a>&nbsp;| &nbsp;</a></li>
+                    <li class="lnk_a"><a href="../DocFile/SDC_HelpDesk.pdf" title="डाटा सेंटर माहिती कक्ष">
+                        माहिती कक्ष</a></li>
+                    <li class="nonlnk_a"><a>&nbsp;| &nbsp;</a></li>
+                    <li class="lnk_a"><a title="डाउनलोड">डाउनलोड</a>
+                        <ul>
+                            <li><a href="../DownloadinfoDocument.pdf" title="डाउनलोडची माहिती" target="_blank">डाउनलोडची माहिती</a></li>
+                            <li><a href="#" title="डाउनलोड">डाउनलोड</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </div>
+            
+            
+            
+            
+            
+                <div id="right_lnk">
+                    <a href="javascript:ts('body',1)"><span>अ+</span></a> |<a href="javascript:normal('body',3)"><span>अ</span></a>
+                    | <a href="javascript:ts('body',-1)"><span>अ-</span></a>
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+            <div style="clear: both">
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div style="clear: both">
+            </div>
+            <div class="footer">
+                <%--================================ Prerequisites--%>
+                <%--   <hr />
+                <div id="prerequisites">
+                    वेबसाईट वापराचे पूर्व अपेक्षा : * इंटरनेट एक्सप्लोरर ८, * मराठी कीबोर्ड, * एडोब
+                    रीडर 9.0, * बॉयोमीट्रिक सेटिंग इंटरनेट एक्सप्लोरर ८ वर, * बॉयोमीट्रिक डिलल नॊंदणी
+                    डिजिटल हस्ताक्षर
+                </div>
+                <hr />--%>
+                <%--=========================Links--%>
+                <a href="Help.aspx"><span class="footer_span">मदत । </span></a><a href="AboutUs.aspx">
+                    <span class="footer_span">आमच्या विषयी | </span></a><a href="pgImpInofmation.aspx"><span
+                        class="footer_span">गुप्तता धोरण | </span></a><a href="pgImpInofmation.aspx"><span
+                            class="footer_span">वेबसाईट वापराच्या अटी | </span></a><a href="sitmap.aspx"><span
+                                class="footer_span">वेबसाईट मार्ग निर्देशक | </span></a><a href="Contactus.aspx"><span
+                                    class="footer_span">संपर्क</span></a>
+                <%--=============================Disclaimer--%>
+                <div class="disclaimer">
+                    <b>DISCLAIMER :Content on this website is owned, published and managed by Revenue &
+                        Forest Department MAHARASHTRA State. For any query regarding this website Please
+                        Contact the Web Information Manager.
+                        <br />
+                        Best Viewed in 1600x900 Last modified on &nbsp;&nbsp;22.09.2015<span style="color: #ff0000"><b>&nbsp;</b></span></b></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

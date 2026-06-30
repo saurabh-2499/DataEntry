@@ -1,0 +1,202 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+/* Please Keep this font import at the very top of any CSS file */
+@charset "UTF-8";
+/* Starter CSS for Flyout Menu */
+#cssleftmenu {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+}
+#cssleftmenu ul,
+#cssleftmenu ul li,
+#cssleftmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssleftmenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#cssleftmenu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+  background-image: url("../Image/bgmenu.jpg");
+}
+#cssleftmenu ul li.hover,
+#cssleftmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+  /*transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);*/
+}
+#cssleftmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 598;
+  width: 100%;
+}
+#cssleftmenu ul ul li {
+  float: none;
+}
+#cssleftmenu ul ul ul {
+  top: -2px;
+  right: 0;
+}
+#cssleftmenu ul li:hover > ul {
+  visibility: visible;
+}
+#cssleftmenu ul ul {
+  top: 1px;
+  left: 99%;
+}
+#cssleftmenu ul li {
+  float: none;
+}
+#cssleftmenu ul ul {
+  margin-top: 1px;
+}
+#cssleftmenu ul ul li {
+  font-weight: 300;
+}
+/* Custom CSS Styles */
+#cssleftmenu {
+  width: 200px;
+  background: #333333;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  zoom: 1;
+  font-size: 14px;
+}
+#cssleftmenu:before {
+  content: '';
+  display: block;
+}
+#cssleftmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssleftmenu a {
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#cssleftmenu > ul {
+  width: 200px;
+}
+#cssleftmenu ul ul {
+  width: 200px;
+}
+#cssleftmenu > ul > li > a {
+  border-right: 4px solid rgb(161,11,20);  
+   background-image:url(../Image/bgmenu.jpg);
+}
+#cssleftmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssleftmenu > ul > li.active a {
+  
+     background-image:url(../Image/bgmenu1.jpg);
+}
+#cssleftmenu > ul > li a:hover,
+#cssleftmenu > ul > li:hover a {
+ background-image:url(../Image/bgmenu1.jpg);
+}
+
+#cssleftmenu li {
+  position: relative;
+}
+#cssleftmenu ul li.has-sub > a:after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -6px;
+}
+#cssleftmenu ul ul li.first {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+#cssleftmenu ul ul li.last {
+  -webkit-border-radius: 0 0 3px 0;
+  -moz-border-radius: 0 0 3px 0;
+  border-radius: 0 0 3px 0;
+  border-bottom: 0;
+}
+#cssleftmenu ul ul {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#cssleftmenu ul ul {
+  border: 1px solid #CB9442;
+}
+#cssleftmenu ul ul a {
+  font-size: 14px;
+  color: #cyan;
+}
+#cssleftmenu ul ul a:hover {
+  color: #ffffff;
+}
+#cssleftmenu ul ul li {
+  border-bottom: 1px solid #CB9442;
+}
+#cssleftmenu ul ul li:hover > a {
+  /*background: #4eb1ff;*/
+   background-image:url(../Image/bgmenu2.jpg);
+  color: #ffffff;
+}
+#cssleftmenu.align-right > ul > li > a {
+  border-left: 4px solid #1b9bff;
+  border-right: none;
+}
+#cssleftmenu.align-right {
+  float: right;
+}
+#cssleftmenu.align-right li {
+  text-align: right;
+}
+#cssleftmenu.align-right ul li.has-sub > a:before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -6px;
+}
+#cssleftmenu.align-right ul li.has-sub > a:after {
+  content: none;
+}
+#cssleftmenu.align-right ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 598;
+  width: 100%;
+}
+#cssleftmenu.align-right ul ul li.first {
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+#cssleftmenu.align-right ul ul li.last {
+  -webkit-border-radius: 0 0 0 3px;
+  -moz-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+#cssleftmenu.align-right ul ul {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}

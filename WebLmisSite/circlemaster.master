@@ -1,0 +1,205 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="circlemaster.master.cs" Inherits="circlemaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="mr-IN" xml:lang="mr-IN">
+<head id="Head1" runat="server">
+   
+
+    <script type="text/javascript" language="javascript">
+javascript:window.history.forward(1)
+    </script>
+   
+    <!-- 1  16-12-2015 script for logout when user close the browser-->
+     <script language="JavaScript" type="text/javascript">
+         var x;
+                
+</script>
+    <meta name="keywords" content="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,बोजा फेरफार ,तहसिलदार,तलाठी,सर्कल ऑफिसर,तालुका ,जिल्हा,गाव,खाता,वारस,अंगठा तपासनी,७/१२ प्रमाणीत करणे,फ़ेरफ़ार रद्द करणे,
+  तलाठि शेरा,७/१२ पहा" />
+    <title>.::राष्ट्रीय भूमि अभिलेख आधुनिकीकरण कार्यक्रम,महाराष्ट्र राज्य::.</title>
+    <link href="CSS/FloatingKeyboard.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="JavaScript/textsizer.js"></script>
+    <link href="CSS/dropdown.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" id="themestyle" runat="server" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />   
+     <link href="loginStyle.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="CSS/MenuStyle.css"/>
+    <script src="Javascript/jquery-latest.min.js" type="text/javascript"></script>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="360">
+        </asp:ScriptManager>
+        <div class="headBG">
+           
+           
+            <div class="headMid">
+                <div class="depName" style="height: 75px; width: 75px;">
+                    <a href="" class="govLogo">
+                        <img id="HeaderMain1_ImgGovtLogo" style="width:100px; height:112px;" title="महाराष्ट्र शासनाचे बोधचिन्ह"
+                            alt="महाराष्ट्र शासनाचे बोधचिन्ह" runat="server" scr=""/>
+                    </a>
+                </div>
+                <div class="depNameR">
+                    <a href="" target="_blank"><span>
+                        <img id="HeaderMain1_ImgEmblem" title="भारत सरकार (भारत सरकारच्या पोर्टलवर)" style="width:100px; height:112px;" alt="भारत सरकार (भारत सरकारच्या पोर्टलवर)"
+                             runat="server" src="" /></span> </a>
+                </div>
+                 <center>
+
+                     <div style="background-color:rgba(0, 0, 0, 0.5); width:400px; border-radius:20px;margin-bottom:5px;">
+                  
+                        <asp:Label ID="Label3" runat="server" CssClass="header_text1" Text="महाराष्ट्र शासन"></asp:Label>
+                        <br />
+                        <asp:Label ID="Label1" runat="server" Text="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम"
+                            CssClass="form_header_txt"></asp:Label>
+                        <br />
+                        <asp:Label ID="Label4" runat="server" Text="७/१२ री - डाटा एन्ट्री मॉड्युल" CssClass="header_text12"></asp:Label>                
+                       
+                       
+                   <%--<asp:Label ID="lbltrialrun" runat="server" Text="(Trial Run)" CssClass="header_text12"></asp:Label>--%>
+                   
+                </div>
+                </center> 
+            </div>
+          
+             <asp:Panel ID="pnlmenu" runat="server">  
+           
+            </asp:Panel>
+          
+        </div>
+         <asp:Panel ID="pnlmenu_sub" CssClass="zindex0" runat="server">
+        <div style="clear: both">
+        </div>
+        <div class="stripe">
+        </div>
+        <div id="Navigation">
+            <div id="Content" class="container_upper">
+                <asp:Label ID="lblusername" runat="server" CssClass="form_lbl"></asp:Label><div class="leftPanel">
+                    <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server"/>
+                    <asp:Label ID="Label2" Text="तुम्ही आता येथे आहात:" runat="server" CssClass="form_lbl"></asp:Label>
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="sitemap">
+                    </asp:SiteMapPath>
+                    pg712</div>
+                
+            </div>
+            <div style="clear: both">
+            </div>
+             </div>
+             </asp:Panel>
+
+         <div id='cssleftmenu' style="position:absolute;display:none;">
+        <ul>
+                       
+                         <li >                           
+
+                             <a href='pgEntryVerify.aspx'><span>मुखपृष्ठ</span></a>
+
+                        </li>   
+             <li title="डाटा एन्ट्री अहवाल" class='has-sub'><a href='#'><span>डाटा एन्ट्री अहवाल</span> &nbsp;&nbsp;</a>
+      <ul>
+          <li title="डाटा एन्ट्री(दुरुस्त) केलेल्या सर्व्हे क्रमांक /गट क्रमांक यांची यादी"><a href='rpt.aspx'><span>डाटा एन्ट्री (दुरुस्त) केलेल्या सर्व्हे क्रमांक /गट क्रमांक  यांची यादी</span></a></li>
+          <li title="आदेश व परिशिष्ट ब" ><a href='pgReport.aspx'><span>आदेश व परिशिष्ट ब</span></a></li>
+          <li title="डाटा एन्ट्री ( दुरुस्ती )  न  केलेल्या सर्व्हे क्रमांक /गट क्रमांक यांची यादी" ><a href='rptNotEditedPins.aspx' target="_blank"><span>डाटा एन्ट्री ( दुरुस्ती )  न  केलेल्या सर्व्हे क्रमांक /गट क्रमांक यांची यादी</span></a></li>
+          <li title="डाटा एन्ट्री आज्ञावलीद्वारे  नामंजूर केलेले  सर्वे क्रमांक-फेरफार क्रमांक" ><a href='rptRejectMutDetails.aspx' target="_blank"><span>डाटा एन्ट्री आज्ञावलीद्वारे  नामंजूर केलेले  सर्वे क्रमांक-फेरफार क्रमांक</span></a></li>
+         <%-- <li title="अकृषिक क्षेत्र ( एन ए क्षेत्र ) अहवाल" ><a href='pgReport.aspx'><span>अकृषिक क्षेत्र ( एन ए क्षेत्र ) अहवाल</span></a></li>--%>
+      </ul>
+   </li>
+            <li title="अहवाल" class='has-sub'><a href='#'><span>अहवाल</span></a>
+      <ul>
+         <li title="७/१२ पहा"><a href='View712_new.aspx'><span>७/१२ पहा</span></a></li>
+         <li title="फेरफार रेजीस्टर" ><a href='Report6.aspx'><span>फेरफार रेजीस्टर</span></a></li>
+         <li title="गाव नमुना ८अ" ><a href='namuna8a.aspx'><span>गाव नमुना ८अ</span></a></li> 
+          <li title="सर्व्हे क्रमांकाचा शेती - बिगर शेतीचा अहवाल पहा"><a href='PgNAStatus.aspx'><span>सर्व्हे क्रमांकाचा शेती - बिगर शेतीचा अहवाल</span></a></li>
+       </ul>
+   </li>     
+             
+                         <%-- <li >                            
+                          
+                               <a href='pgChangePassword_Circle.aspx'><span>पासवर्ड बदला</span></a>
+                          </li>--%>
+                        
+                           <li >
+                               <a href='pgLogout.aspx'><span>बाहेर पडा</span></a>
+                           </li>
+                    </ul>
+
+             </div>
+
+            <div class="container">
+                <br/>
+                <center>
+                   <asp:Label ID="lblheading_pg" runat="server" CssClass="form_bl_color"></asp:Label>   </center>
+                 <div style="float:right; width:60px;  margin-right:-40px; margin-top:-90px; ">
+                 <%--<asp:Image ID="Image3" Width="50px" Height="50px" ToolTip="Logout" ImageUrl="~/Image/logout.png"  onClick="window.location = 'pgLogout.aspx'" runat="server" />--%>
+                    <a href="pgLogout.aspx"><img alt="" style="height:50px; width:50px;" src="Image/logout.png"/></a>  
+                </div>
+                 <div  style="float:right; width:10px; margin-right:20px; margin-top:-30px; "  class="zindex0">
+             <asp:Panel ID="pnlContainer" runat="server" >
+
+                <%-- <cc1:CollapsiblePanelExtender ID="CollapsiblePanelExtender1" runat="server" TargetControlID="pnlmenu_sub"
+        CollapseControlID="pnlContainer" ExpandControlID="pnlContainer" Collapsed="false" CollapsedSize="10" ExpandedSize="75" ExpandedText="(Collapse...)" 
+        CollapsedText="(Expand...)" TextLabelID="textLabel" ImageControlID="Image1" ExpandedImage="Image/collapse.gif" CollapsedImage="Image/expand.jpg"></cc1:CollapsiblePanelExtender>
+
+
+                        <asp:Image ID="Image1" Width="35px" Height="35px" runat="server" />--%>
+                         </asp:Panel>
+                         
+                         
+                         
+                    </div>
+               
+                    <div style="float:left; margin-left:-10px; margin-top:-30px; "  class="zindex0">
+                    
+                    
+                    
+                    
+                     <asp:Image ID="Image2" Width="50px" Height="50px" runat="server" ToolTip="मेनू" ImageUrl="Image/menu.png" />
+                     <h2>मेनू</h2></div>
+                    <asp:Panel ID="pnlChild" runat="Server" ScrollBars="Auto">
+
+                        <cc1:HoverMenuExtender ID="HoverMenuExtender1" runat="server" TargetControlID="Image2" PopupControlID="cssleftmenu" ></cc1:HoverMenuExtender>
+                    
+                 <%--   <cc1:HoverMenuExtender ID="HoverExtender1" runat="server" TargetControlID="Image2" PopupControlID="cssleftmenu" >
+                </cc1:HoverMenuExtender>--%>
+                </asp:Panel>
+                <br/>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+       
+        <div id="footer">
+            <div class="bottomBG">
+                <div class="footerTop">
+                    <div class="footerLeft">
+                        <center>
+                           <%-- <ul class="bottomLink">
+                                <%--<li><a href="../Help.aspx">मदत ।</a></li>--%>
+                                <%--<%--<li><a href="../AboutUs.aspx">आमच्या विषयी | </a></li>--%>
+                                <%--<li><a href="../pgImpInofmation.aspx">गुप्तता धोरण | </a></li>
+                                <li><a href="../pgImpInofmation.aspx">वेबसाईट वापराच्या अटी |</a></li>
+                                <li><a href="../sitmap.aspx">वेबसाईट मार्ग निर्देशक | </a></li>
+                                <li><a href="../Contactus.aspx">संपर्क</a></li>
+                            </ul>--%>
+                            <span id="FooterMenu1_lbl_copyright" class="copyRight">DISCLAIMER :Content on this website
+                                is owned, published and managed by Revenue & Forest Department MAHARASHTRA State.
+                               
+                                <br />
+                                Best Viewed in 1600x900 Last modified on &nbsp;&nbsp;22.09.2015</span></center>
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

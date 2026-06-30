@@ -1,0 +1,259 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="InnerMaster.master.cs" Inherits="InnerMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="mr-IN" xml:lang="mr-IN">
+<head id="Head1" runat="server">
+
+
+    <script type="text/javascript" language="javascript">
+        javascript: window.history.forward(1)
+    </script>
+
+    <meta name="keywords" content="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,बोजा फेरफार ,तहसिलदार,तलाठी,सर्कल ऑफिसर,तालुका ,जिल्हा,गाव,खाता,वारस,अंगठा तपासनी,७/१२ प्रमाणीत करणे,फ़ेरफ़ार रद्द करणे,
+  तलाठि शेरा,७/१२ पहा" />
+    <title>.::राष्ट्रीय भूमि अभिलेख आधुनिकीकरण कार्यक्रम,महाराष्ट्र राज्य::.</title>
+    <link href="CSS/FloatingKeyboard.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="JavaScript/textsizer.js"></script>
+    <link href="loginStyle.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/dropdown.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" id="themestyle" runat="server" />
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="loginStyle.css" rel="stylesheet" type="text/css" />
+    <script src="stylescript/InputCheck.js" type="text/javascript"></script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="CSS/MenuStyle.css" />
+    <script src="Javascript/jquery-latest.min.js" type="text/javascript"></script>
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="360">
+        </asp:ScriptManager>
+        <div id="talathiFeader" class="headBG" align="right">
+            <div class="headMid">
+                <div class="depName">
+                    <a href="" class="govLogo">
+                        <img id="HeaderMain1_ImgGovtLogo" style="width: 100px; height: 112px;" title="महाराष्ट्र शासनाचे बोधचिन्ह"
+                            alt="महाराष्ट्र शासनाचे बोधचिन्ह" src="" runat="server" />
+                    </a>
+                </div>
+                <div class="depNameR">
+                    <a href="" target="_blank"><span>
+                        <img id="HeaderMain1_ImgEmblem" style="width: 100px; height: 112px;" title="भारत सरकार (भारत सरकारच्या पोर्टलवर)" src="" alt="भारत सरकार (भारत सरकारच्या पोर्टलवर)"
+                            runat="server" /></span> </a>
+                </div>
+                <center>
+
+                    <div style="background-color: rgba(0, 0, 0, 0.5); width: 400px; border-radius: 20px; margin-bottom: 5px;">
+                        <asp:Label ID="Label3" runat="server" CssClass="header_text1" Text="महाराष्ट्र शासन"></asp:Label>
+                        <br />
+                        <asp:Label ID="Label1" runat="server" Text="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम"
+                            CssClass="form_header_txt"></asp:Label>
+                        <br />
+                        <asp:Label ID="Label4" runat="server" Text=" डाटा एन्ट्री मॉड्युल " CssClass="header_text12"></asp:Label>
+                        <asp:Label ID="lbltrialrun" runat="server" Text="" CssClass="header_text12"></asp:Label>
+
+                    </div>
+                </center>
+                <div class="clear">
+                </div>
+            </div>
+            <asp:Panel ID="pnlmenu" runat="server">
+            </asp:Panel>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <asp:Panel ID="pnlmenu_sub" CssClass="zindex0" runat="server">
+            <div style="clear: both">
+            </div>
+            <div class="stripe">
+            </div>
+            <div id="Navigation">
+                <div id="Content" class="container_upper">
+                    <asp:Label ID="lblusername" runat="server" CssClass="form_lbl"></asp:Label>
+
+                    <div class="leftPanel">
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                        <asp:Label ID="Label2" Text="तुम्ही आता येथे आहात:" runat="server"></asp:Label>
+                        <asp:SiteMapPath ID="SiteMapPath1" SiteMapProvider="SiteMapDataSource1" CssClass="sitemap" runat="server">
+                        </asp:SiteMapPath>
+                       <%-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="Large" ForeColor="Blue" NavigateUrl="~/Downloads/Re-EditTapasni Suchi.pdf" OnDataBinding="HyperLink1_DataBinding" Target="_blank">री - डाटा एन्ट्री मॉड्युल द्वारे करावयाच्या कामांची पडताळणी सुची </asp:HyperLink>--%>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+
+
+        </asp:Panel>
+
+        <div id='cssleftmenu' style="position: absolute; display: none;">
+            <ul>
+                <li title="गाव निवडा"><a href='pgVillageSelection.aspx'><span>गाव निवडा</span></a></li>
+                <li title="खात्याच्या दुरुस्त्या" class='has-sub'><a href='#'><span>खात्याच्या दुरुस्त्या</span></a>
+                    <ul>
+
+
+
+
+                        <%--  <li>  <asp:LinkButton ID="LinkButton2" runat="server" Text="खाते एकत्रिकरण" Enabled="true" OnClientClick="alert('खाते एकत्रिकरण तूर्त तांत्रीक पडताळणी साठी डिसेबल करण्यात आले आहे.')">खाते एकत्रिकरण</asp:LinkButton></li>  --%>
+                          <li title="नविन खाते तयार करणे"><a href='khata_creation.aspx'><span>नविन खाते तयार करणे</span></a></li>
+                        <li title="खाता प्रोसेसिंग करणे"><a href='pgKhataProcess.aspx'><span>खाता प्रोसेसिंग करणे</span></a></li>
+                         <li title="खाता मास्टरची दुरुस्त/अद्यावत केलेली माहिती कायम करणे"><a href='pgKhataConfirmation.aspx'><span>खाता मास्टरची दुरुस्त/अद्यावत केलेली माहिती कायम करणे</span></a></li>
+                        <%--<li title="खाता मास्टरची खाता प्रोसेसिंगने दुरुस्त/अद्यावत केलेली माहिती पुर्ववत करणे"><a href='pgKhataNoDataDiscrCorrection.aspx'><span>खाता मास्टरची खाता प्रोसेसिंगने दुरुस्त/अद्यावत केलेली माहिती पुर्ववत करणे</span></a></li>--%>
+                        <%--<li title="खाते एकत्रिकरण "><a href='pgChangeKhata.aspx'><span>खाते एकत्रिकरण</span></a></li>--%>
+
+                        <%--<li>  <asp:LinkButton ID="LinkButton1" runat="server" Text="खाते विभागणी" Enabled="true" OnClientClick="alert('खाते विभागणी तूर्त तांत्रीक पडताळणी साठी डिसेबल करण्यात आले आहे.')" >खाते विभागणी</asp:LinkButton></li>--%>
+
+                        <%--<li title="खाते विभागणी "><a href='pgKhateFod.aspx'><span>खाते विभागणी</span></a></li>--%>
+                       
+                        <%-- <li title="खात्यांची दुरुस्ती पुर्ण झाल्याचे तलाठी स्वयं घोषणा करणे" ><a href='villageskhataWorkDecalaration.aspx'><span>खात्यांची दुरुस्ती पुर्ण झाल्याचे तलाठी स्वयं घोषणा करणे</span></a></li>--%>
+                        <%-- <li title="अचुक गाव नमुना ७/१२ व ८अ साठी काम पुर्ण झाल्याचे अंतिम प्रमाणपत्र" ><a href='papatr3form.aspx'><span>अचुक गाव नमुना ७/१२ व ८अ साठी काम पुर्ण झाल्याचे अंतिम प्रमाणपत्र</span></a></li>--%>
+                        <%-- <asp:LinkButton ID="LinkButton1" runat="server" Text="खाते विभागणी" Enabled="false">खाते विभागणी</asp:LinkButton></li>--%>
+                        <%--  <li>  <asp:LinkButton ID="LinkButton2" runat="server" Text="खाते एकत्रिकरण" Enabled="false">खाते एकत्रिकरण</asp:LinkButton></li>--%>
+
+                      
+                       <%-- <li title="गावातील सर्व खातेदारांच्या नावाचा कंस काढणे"><a href='names_unbracket.aspx'><span>गावातील सर्व खातेदारांच्या नावाचा कंस काढणे</span></a></li>--%>
+                    </ul>
+                </li>
+
+                <li title="सर्व्हे क्रमांक/गट क्रमांकांच्या दुरुस्त्या" class='has-sub'><a href='#'><span>सर्व्हे क्रमांक/गट क्रमांकांच्या दुरुस्त्या</span></a>
+                    <ul>  
+                        <li title="नविन ७/१२ तयार करणे"><a href='pgNew712AddEntry.aspx'><span>नविन ७/१२ तयार करणे</span></a></li>
+                        <li title="हस्तलिखीत/LIMIS ७/१२ पाहुन सर्व्हे/गट क्रमांकाचा नविन ७/१२ तयार करणे/दुरुस्त करणे"><a href='View712.aspx'><span>हस्तलिखीत/LIMIS ७/१२ पाहुन सर्व्हे/गट क्रमांकाचा नविन ७/१२ तयार करणे/दुरुस्त करणे</span></a></li>
+                        <li title="तहसिलदारांचा दुरुस्त्या मान्येतेचा आदेश व परिशिष्ट ब तयार करणे"><a href='PgTranNoCreation.aspx'><span>तहसिलदारांचा दुरुस्त्या मान्येतेचा आदेश व परिशिष्ट ब तयार करणे</span></a></li>
+                        <li title="फेरफार क्रमांक तयार करणे"><a href='pgFerfarNoCreation.aspx'><span>फेरफार क्रमांक तयार करणे</span></a></li>
+                        <li title="तयार केलेले सर्व्हे/गट क्रमांक दुरुस्ती करण्यासाठी दुबार उपलब्ध करणे"><a href='pgRORNTimesAllow.aspx'><span>तयार केलेले सर्व्हे/गट क्रमांक दुरुस्ती करण्यासाठी दुबार उपलब्ध करणे</span></a></li>
+
+                        
+<%--                        <li title="सर्व्हे क्रमांक दुरुस्त करण्यासाठी दुबार उपलब्ध करणे"><a href='pgRORNTimesAllow.aspx'><span>सर्व्हे क्रमांक दुरुस्त करण्यासाठी दुबार उपलब्ध करणे</span></a></li>--%>
+
+                       <%-- <li title="दुरुस्तीसाठी निवडलेले परंतु दुरुस्त्या न केलेले सर्व्हे क्रमांक / गट क्रमांक नविन ७/१२ तयार करण्यासाठी उपलब्ध करणे"><a href='pgEditSurveyRelease.aspx'><span>दुरुस्तीसाठी निवडलेले परंतु दुरुस्त्या न केलेले सर्व्हे क्रमांक / गट क्रमांक नविन ७/१२ तयार करण्यासाठी उपलब्ध करणे</span></a></li>
+                        <li title="दुरुस्तीसाठी निवडुन फक्त पीकपहाणी  अद्यावत/दुरुस्त्या केलेले सर्व्हे क्रमांक / गट क्रमांक  नविन ७/१२ तयार करण्यासाठी उपलब्ध करणे "><a href='pgPikpahaniApproval.aspx' target="_blank"><span>दुरुस्तीसाठी निवडुन फक्त पीकपहाणी  अद्यावत/दुरुस्त्या केलेले सर्व्हे क्रमांक / गट क्रमांक नविन ७/१२ तयार करण्यासाठी उपलब्ध करणे</span></a></li>
+                        <li title="नामंजुर केलेले सर्व्हे क्रमांक / गट क्रमांक नविन ७/१२ तयार करण्यासाठी उपलब्ध करणे "><a href='pgNamanjurSurveyRelease.aspx' target="_blank"><span>नामंजुर केलेले सर्व्हे क्रमांक / गट क्रमांक नविन ७/१२ तयार करण्यासाठी उपलब्ध करणे</span></a></li>--%>
+                        <%--<li title="डाटा एन्ट्री मॉड्युलमध्ये फेज - १ मधिल दुरुस्त्या केलेले सर्व्हे क्रमांक / गट क्रमांक प्रमाणित करण्यासाठी उपलब्ध करणे"><a href='pgEmnNotMkCorrection.aspx' target="_blank"><span>री-एडिट फेज - १ मधिल दुरुस्त्या केलेले सर्व्हे क्रमांक / गट क्रमांक प्रमाणित करण्यासाठी उपलब्ध करणे</span></a></li>--%>
+                       <%--  <li title="सर्व्हे क्रमांकावरील खातेदारांची अद्यावत/दुरुस्त केलेली माहिती पुर्ववत करणे"><a href='pgSurveyChangesRevert.aspx'><span>सर्व्हे क्रमांकावरील खातेदारांची अद्यावत/दुरुस्त केलेली माहिती पुर्ववत करणे</span></a></li>--%>
+                    </ul>
+                </li>
+
+                <li title="डाटा एन्ट्री आज्ञावली मधील काम संपल्याची घोषणा" class='has-sub'><a href='#'><span>डाटा एन्ट्री आज्ञावली मधील काम संपल्याची घोषणा</span> &nbsp;&nbsp;</a>
+                    <ul>
+                        <li title="Declaration-I  प्रमाणपत्र"><a href='villageskhataWorkDecalaration.aspx' target="_blank"><span>Declaration-I  प्रमाणपत्र</span></a></li>
+                        <%--<li title="Declaration-II तपासणी सूची (१-२४ ) नुसार दुरुस्त्यांची घोषणा" ><a href='pgSecondDeclaration.aspx' ><span>Declaration-II तपासणी सूची (१-२४ ) नुसार दुरुस्त्यांची घोषणा</span></a></li>        
+         <li title="Declaration-III अंतिम प्रमाणपत्र" ><a href='papatr3form.aspx'><span>Declaration-III अंतिम प्रमाणपत्र</span></a></li>--%>
+                        <li title="ODC समरी रेपोर्ट १-१४"><a href='rpt_summary.aspx' target="_blank"><span>ODC समरी रेपोर्ट १-१४</span></a></li>
+                        <li title="ODC समरी रेपोर्ट १५-२८"><a href='rpt_summary_26.aspx' target="_blank"><span>ODC समरी रेपोर्ट १५-२८</span></a></li>
+                       <%-- <li title="Declaration-I चे काम पूर्ववत करणेसाठी DBA कडे Request करणे"><a href='pgD1RevertRequestByTalathi.aspx'><span>Declaration-I चे काम पूर्ववत करणेसाठी DBA कडे Request करणे</span></a></li>--%>
+
+                    </ul>
+                </li>
+
+                <li title="घोषणापत्र अहवाल " class='has-sub'><a href='#'><span>घोषणापत्र अहवाल </span> &nbsp;&nbsp;</a>
+                <ul>
+                    <li title=" घोषणापत्र -I "><a href='declarationI.aspx' target="_blank"><span>घोषणापत्र -I </span></a></li>
+                    <li title=" घोषणापत्र -II "><a href='rtpDeclrationII.aspx' target="_blank"><span>घोषणापत्र -II  </span></a></li>
+                    <li title=" घोषणापत्र -III "><a href='rptThirdDeclaration.aspx' target="_blank"><span>घोषणापत्र -III </span></a></li>
+                </ul>
+            </li>
+                <li title="डाटा एन्ट्री अहवाल" class='has-sub'><a href='#'><span>डाटा एन्ट्री अहवाल</span> &nbsp;&nbsp;</a>
+                    <ul>
+                        <li title="खाता प्रोसससिंगचे काम सुरु करण्यापूर्वी  दुरुस्ती करण्यासाठी निवडलेल्या सर्वे क्रमांकाची यादी  "><a href='rptKhataReEditList.aspx' target="_blank"><span>खाता प्रोसससिंगचे काम सुरु करण्यापूर्वी दुरुस्ती करण्यासाठी निवडलेल्या सर्वे क्रमांकाची यादी  </span></a></li>
+                        <li title="डाटा एन्ट्री आज्ञावलीद्वारे खातेनिहाय खाता मास्टर दुरुस्तीचा माहिती उतारा "><a href='rptKhataReEdit.aspx' target="_blank"><span>डाटा एन्ट्री आज्ञावलीद्वारे खातेनिहाय खाता मास्टर दुरुस्तीचा माहिती उतारा </span></a></li>
+                        <%-- <li title="प्रपत्र -३ अंतिम प्रमाणपत्र अहवाल" ><a href='papatr3.aspx'><span>प्रपत्र -३ अंतिम प्रमाणपत्र</span></a></li>--%>
+                        <li title="नविन ७/१२ तयार (दुरुस्त्या) केलेल्या सर्व्हे क्रमांक /गट क्रमांक यांची यादी"><a href='rpt.aspx'><span>नविन ७/१२ तयार (दुरुस्त्या) केलेल्या सर्व्हे क्रमांक /गट क्रमांक  यांची यादी</span></a></li>
+                        <li title="आदेश व परिशिष्ट ब"><a href='pgReport.aspx'><span>आदेश व परिशिष्ट ब</span></a></li>
+                        <li title="डाटा एन्ट्री आज्ञावलीद्वारे केलेल्या कामाचा गाव - सर्व्हे निहाय सारांश अहवाल"><a href='rptNotEditedPins.aspx' target="_blank"><span>डाटा एन्ट्री आज्ञावलीद्वारे केलेल्या कामाचा गाव - सर्व्हे निहाय सारांश अहवाल</span></a></li>
+                        <li title="डाटा एन्ट्री आज्ञावलीद्वारे  नामंजूर केलेले  सर्वे क्रमांक-फेरफार क्रमांक"><a href='rptRejectMutDetails.aspx' target="_blank"><span>डाटा एन्ट्री आज्ञावलीद्वारे  नामंजूर केलेले  सर्वे क्रमांक-फेरफार क्रमांक</span></a></li>
+                    </ul>
+                </li>
+
+                <li title="अहवाल" class='has-sub'><a href='#'><span>अहवाल</span></a>
+                    <ul>
+                        <li title="७/१२ पहा"><a href='View712_new.aspx'><span>७/१२ पहा</span></a></li>
+                        <li title="फेरफार रेजीस्टर"><a href='Report6.aspx'><span>फेरफार रेजीस्टर</span></a></li>
+                      <%--  <li title="गाव नमुना ८अ"><a href='namuna8a.aspx'><span>गाव नमुना ८अ</span></a></li>--%>
+                        <li title="सर्व्हे क्रमांकाचा शेती - बिगर शेतीचा अहवाल पहा"><a href='PgNAStatus.aspx'><span>सर्व्हे क्रमांकाचा शेती - बिगर शेतीचा अहवाल</span></a></li>
+                        <li title="खातेदारांची माहिती"><a href='wfrmNamuna-8-A.aspx'><span>खातेदारांची माहिती</span></a></li>
+                        <li title="डुप्लिकेट सर्वे क्रमांक यांची यादी "><a href='pgPinalike.aspx'><span>डुप्लिकेट सर्वे क्रमांक यांची यादी </span></a></li>
+                        <li title="गावनिहाय बल्क साईनझालेल्या सर्वे क्रमांकाचा अहवाल "><a href='PgRptBilkSign.aspx'><span>गावनिहाय बल्क साईन झालेल्या सर्वे क्रमांकाचा अहवाल </span></a></li>
+                        <li title="समान नावांची एकापेक्षा जास्त खाती असलेल्या सर्वे क्रमांकांची यादी"><a href='rptSameNamesDifferentKhataOnSameSurvey.aspx' target="_blank"><span>समान नावांची एकापेक्षा जास्त खाती असलेल्या सर्वे क्रमांकांची यादी</span></a></li>
+                        <li title="भूधारणा बदलेल्या सर्वे क्रमांकाचा अहवाल "><a href='rpttenuredetails.aspx' target="_blank"><span>भूधारणा बदलेल्या सर्वे क्रमांकाचा अहवाल </span></a></li>
+                        <li title="एकच खाते असलेल्या सर्व्हे क्रमांकाची यादी"><a href='rptSurveyKhataList.aspx' target="_blank"><span>एकच खाते असलेल्या सर्व्हे क्रमांकाची यादी </span></a></li>
+
+                    </ul>
+                </li>
+
+                <li title="Download 7/12 PDF file"><a href='pgRORDownload.aspx'><span>Download 7/12 PDF file</span></a></li>
+
+                 
+              <%--  <li title="समस्या निराकरण " class='has-sub'><a href='Mutation_reject.aspx'><span>समस्या निराकरण </span> &nbsp;&nbsp;</a>                    </li>--%>
+                
+
+
+                <li title="बाहेर पडा"><a href='pgLogout.aspx'><span>बाहेर पडा</span></a></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <center>
+                <asp:Label ID="lblheading_pg" runat="server" CssClass="form_bl_color"></asp:Label>
+            </center>
+            <div style="float: right; width: 60px; margin-right: -60px; z-index: 0; overflow: no-display; margin-top: -100px;">
+                <a href="pgLogout.aspx">
+                    <img alt="" style="height: 50px; width: 50px;" src="Image/logout.png" /></a>
+            </div>
+            <div style="float: right; width: 10px; margin-right: 20px; margin-top: -30px;" class="zindex0">
+                <asp:Panel ID="pnlContainer" runat="server">
+                    <asp:Image ID="Image1" Width="35px" Height="35px" runat="server" />
+                </asp:Panel>
+            </div>
+
+            <div style="float: left; margin-left: -10px; margin-top: -30px;" class="zindex0">
+                <asp:Image ID="Image2" Width="50px" Height="50px" runat="server" ToolTip="मेनू" ImageUrl="Image/menu.png" />
+                <h2>मेनू</h2>
+            </div>
+            <asp:Panel ID="pnlChild" runat="Server" ScrollBars="Auto">
+
+                <cc1:HoverMenuExtender ID="HoverExtender1" runat="server" TargetControlID="Image2" PopupControlID="cssleftmenu">
+                </cc1:HoverMenuExtender>
+            </asp:Panel>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+        <cc1:CollapsiblePanelExtender ID="CollapsiblePanelExtender1" TargetControlID="pnlmenu" runat="server">
+        </cc1:CollapsiblePanelExtender>
+
+
+
+    </form>
+    <div id="footer">
+        <div class="bottomBG">
+            <div class="footerTop">
+                <div class="footerLeft">
+                    <center>
+                        <ul class="bottomLink">
+                            <li><a href="Help.aspx">मदत </a>|</li>
+                            <li><a href="Aboutus.aspx">आमच्या विषयी </a>|</li>
+                            <li><a href="websitepolicies.aspx">वेबसाईट वापराच्या अटी </a>|</li>
+                            <li><a href="ContactUs.aspx">संपर्क</a></li>
+                        </ul>
+                        <span id="Span1" class="copyRight">DISCLAIMER :Content on this website
+                                    is owned, published and managed by Revenue & Forest Department MAHARASHTRA State.
+                                    <br />
+                            Best Viewed in 1600x900 Last modified on &nbsp;&nbsp;22.09.2015</span></center>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

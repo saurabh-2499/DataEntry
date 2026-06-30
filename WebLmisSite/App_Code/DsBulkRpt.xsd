@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DsBulkRpt" targetNamespace="http://tempuri.org/DsBulkRpt.xsd" xmlns:mstns="http://tempuri.org/DsBulkRpt.xsd" xmlns="http://tempuri.org/DsBulkRpt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DsBulkRpt" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DsBulkRpt" msprop:Generator_UserDSName="DsBulkRpt">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dttable" msprop:Generator_TableClassName="dttableDataTable" msprop:Generator_TableVarName="tabledttable" msprop:Generator_TablePropName="dttable" msprop:Generator_RowDeletingName="dttableRowDeleting" msprop:Generator_RowChangingName="dttableRowChanging" msprop:Generator_RowEvHandlerName="dttableRowChangeEventHandler" msprop:Generator_RowDeletedName="dttableRowDeleted" msprop:Generator_UserTableName="dttable" msprop:Generator_RowChangedName="dttableRowChanged" msprop:Generator_RowEvArgName="dttableRowChangeEvent" msprop:Generator_RowClassName="dttableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ccode" msprop:Generator_ColumnVarNameInTable="columnccode" msprop:Generator_ColumnPropNameInRow="ccode" msprop:Generator_ColumnPropNameInTable="ccodeColumn" msprop:Generator_UserColumnName="ccode" type="xs:string" minOccurs="0" />
+              <xs:element name="village_name" msprop:Generator_ColumnVarNameInTable="columnvillage_name" msprop:Generator_ColumnPropNameInRow="village_name" msprop:Generator_ColumnPropNameInTable="village_nameColumn" msprop:Generator_UserColumnName="village_name" type="xs:string" minOccurs="0" />
+              <xs:element name="form7count" msprop:Generator_ColumnVarNameInTable="columnform7count" msprop:Generator_ColumnPropNameInRow="form7count" msprop:Generator_ColumnPropNameInTable="form7countColumn" msprop:Generator_UserColumnName="form7count" type="xs:string" minOccurs="0" />
+              <xs:element name="ror_sign_tables_count" msprop:Generator_ColumnVarNameInTable="columnror_sign_tables_count" msprop:Generator_ColumnPropNameInRow="ror_sign_tables_count" msprop:Generator_ColumnPropNameInTable="ror_sign_tables_countColumn" msprop:Generator_UserColumnName="ror_sign_tables_count" type="xs:string" minOccurs="0" />
+              <xs:element name="ror_bulk_sign_count" msprop:Generator_ColumnVarNameInTable="columnror_bulk_sign_count" msprop:Generator_ColumnPropNameInRow="ror_bulk_sign_count" msprop:Generator_ColumnPropNameInTable="ror_bulk_sign_countColumn" msprop:Generator_UserColumnName="ror_bulk_sign_count" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

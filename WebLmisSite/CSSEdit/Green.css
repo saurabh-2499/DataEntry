@@ -1,0 +1,1185 @@
+﻿body
+{
+}
+a
+{
+	color: #0B614B;
+}
+a:hover
+{
+	color:Black;
+}
+#header
+{
+	width: 100%;
+	overflow: hidden; /*background: #9a3753;*/
+	background: #0B614B;
+	height: 79px;
+	text-align: center;
+}
+#top_left_img
+{
+	float: left;
+	width: 79px;
+	height: 79px;
+}
+.top_left_btn
+{
+	float: left;
+	width: 100px;
+}
+#top_right_img
+{
+	float: right;
+	width: 79px;
+	height: 79px;
+}
+.top_right_btn
+{
+	float: right;
+	width: 100px;
+}
+.header_text1
+{
+	color: White;
+	font-size: medium;
+	font-family: Sakal Marathi;
+	margin: 0 auto;
+	font-weight: bold;
+}
+.header_text2
+{
+}
+
+.footer
+{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.footer a
+{
+	text-decoration: none;
+}
+
+.footer_span
+{
+	color: Black;
+	font-size: 10pt;
+	font-family: Sakal Marathi;
+}
+.disclaimer
+{
+	font-size: 7pt;
+	font-family: Verdana;
+	vertical-align: middle;
+	text-align: center;
+	color: Gray;
+}
+
+.right_lnk
+{
+	width: 5%;
+	float: right;
+	text-align: right;
+}
+.center_lnk
+{
+	width: 9%;
+	float: right;
+	text-align: center;
+}
+.skiptocontent
+{
+	width: 14%;
+	float: right;
+	text-align: right;
+}
+.skiptocontentPrint
+{
+	width: 14%;
+	float: right;
+	margin-right:4%;
+}
+.left_content
+{
+	width: 60%;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.right_content
+{
+	margin-left: 4%;
+	width: 35%;
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	min-height: 300px;
+}
+
+.notice_header
+{
+	font-weight: bold;
+	font-size: 13pt;
+	color: #000;
+	border: solid 1px #C0C0C0;
+	text-align: center;
+}
+
+.text_content
+{
+	height: 156px;
+	font-size: 10pt;
+	color: #715a6c;
+	font-family: Sakal Marathi;
+	text-align: justify;
+}
+
+.bottom_text
+{
+	font-size: 10pt;
+	padding-top: 20px;
+}
+
+.bottom_text #left
+{
+	float: left;
+	width: 49%;
+}
+
+.bottom_text #right
+{
+	float: left;
+	width: 49%;
+}
+
+.top_marquee
+{
+	font-weight: bold;
+	font-size: 12pt;
+	color: Maroon;
+	font-family: Sakal Marathi;
+	height: 18px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#prerequisites
+{
+	font-size: 10px;
+	padding: 5px;
+}
+.bluebtn
+{
+	color: #0B614B;
+	font-family: Sakal Marathi;
+	font-weight: bold;
+}
+
+.bluebtn_small
+{
+	color: #0B614B;
+	font-family: Sakal Marathi;
+}
+
+#theme_option
+{
+	float: right;
+	width: 9%;
+	padding-top: 2px;
+	text-align: right;
+}
+.theme_color_1
+{
+	height: 4px;
+	min-width: 6px;
+	background-color: #3E73AC;
+	text-decoration: none;
+}
+.theme_color_2
+{
+	height: 6px;
+	min-width: 6px;
+	background-color: #0B614B;
+	text-decoration: none;
+}
+.theme_color_3
+{
+	height: 6px;
+	min-width: 6px;
+	background-color: #610B0B;
+	text-decoration: none;
+}
+.faqpnl
+{
+	width: 90%;
+	margin: 0 auto;
+}
+.colpnl
+{
+	height: 28px;
+	width: 100%;
+	background: #0B614B;
+}
+.faqdiv
+{
+	border-bottom: solid 1px #0B614B;
+}
+.dateright
+{
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+.grid
+{
+	font-family: Sakal Marathi;
+	width: 100%;
+	font-size: 13px;
+}
+.gridheader
+{
+	background-color: #0B614B;
+	font-weight: bold;
+	color: White;
+	border-color: #0B614B;
+	font-size: 15px;
+	width: 100px;
+	border-width: 2px;
+	border-style: Solid;
+}
+.gridrow
+{
+	font-size: 13px;
+	border-color: #0B614B;
+	border-style: Solid;
+	border-width: 2px;
+	azimuth: center;
+}
+.gridselectdrow
+{
+	font-size: 13px;
+	border-color: #0B614B;
+	border-style: Solid;
+	border-width: 2px;
+	azimuth: center;
+}
+
+#page_header
+{
+	font-weight: bold;
+	vertical-align: middle;
+	color: white;
+	background-color: #0B614B;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.page_header
+{
+	font-weight: bold;
+	vertical-align: middle;
+	color: white;
+	background-color: #0B614B;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.row
+{
+	width: 100%;
+}
+.column_s1
+{
+	margin-left: 1%;
+	width: 90%;
+	float: left;
+}
+.inner_column3
+{
+	width: 35%;
+	float: left;
+}
+.column
+{
+	margin-left: 5%;
+	width: 15%;
+	float: left;
+}
+.column_1s
+{
+	margin-left: 1%;
+	width: 12%;
+	float: left;
+}
+.column_wo
+{
+	width: 18%;
+	float: left;
+}
+.column18_wo
+{
+	width: 19%;
+	float: left;
+	margin-left:5%;
+}
+.column_large
+{
+	width: 30%;
+	float: left;
+}
+.column_2
+{
+	margin-left: 5%;
+	width: 35%;
+	float: left;
+}
+.column_largest
+{
+	margin-left: 5%;
+	width: 65%;
+	float: left;
+}
+.inner_column1
+{
+	width: 30%;
+	float: left;
+}
+.inner_column2
+{
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+}
+.full_column
+{
+	margin-left: 5%;
+}
+.column_like_popup
+{
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 7%;
+}
+.column_adj
+{
+	margin-left: 5%;
+	width: 20%;
+	float: left;
+}
+.column_10per
+{
+	margin-left: 5%;
+	width: 10%;
+	float: left;
+}
+.column_10perwomargin
+{
+	width: 10%;
+	float: left;
+}
+.column_20per
+{
+	margin-left: 5%;
+	width: 20%;
+	float: left;
+}
+.column_womargin
+{
+	width: 15%;
+	float: left;
+}
+
+.column_mcol2
+{
+	width: 240px;
+	float: left;
+}
+.column_big
+{
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+}
+.column_s
+{
+	margin-left: 5%;
+	width: 5%;
+	float: left;
+}
+.column_popup
+{
+	width: 70%;
+	float: left;
+}
+.column_panel
+{
+	width: 25%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 9%;
+}
+.column_margin1
+{
+	margin-left: 1%;
+	width: 27%;
+	float: left;
+}
+.column_big2
+{
+	width: 55%;
+	float: left;
+	margin-left: 5%;
+}
+.column_land
+{
+	width: 55%;
+	float: left;
+	margin-left: 1%;
+}
+.form_txt
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 130px;
+	height: 20px;
+}
+.form_txt_adj
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 55px;
+	height: 20px;
+}
+.form_txt_90
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 90%;
+	height: 20px;
+}
+.form_txt_s
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 100px;
+	height: 20px;
+}
+.form_txt_xs
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 70px;
+	height: 20px;
+}
+.form_txt_100
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 100%;
+	height: 20px;
+}
+.form_txt_85
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 85%;
+	height: 20px;
+}
+.form_txt_95
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 95%;
+	height: 20px;
+}
+.form_drp
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 26px;
+	width: 130px;
+}
+.form_drp_wowidth
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 26px;
+}
+.form_drp_minwidth
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 26px;
+	min-width:130px;
+}
+.form_drptxt
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 26px;
+	width: 136px;
+}
+.form_drp_86
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 26px;
+	width: 86%;
+}
+.form_drp_97
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 26px;
+	width: 97%;
+}
+.form_lbl
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 28px;
+}
+.form_lbl_large
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 35px;
+}
+.form_lbl_clr
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	color: #0B614B;
+}
+.form_lbl_B
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	font-weight: bold;
+}
+.form_lbl_med
+{
+	font-family: Sakal Marathi;
+	font-size: medium;
+}
+.form_lbl_B_med
+{
+	font-family: Sakal Marathi;
+	font-size: medium;
+	font-weight: bold;
+}
+.form_lbl_color_underline
+{
+	font-family: Sakal Marathi;
+	color: #0B614B;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.form_color
+{
+	color: #0B614B;
+	font-family: Sakal Marathi;
+	font-size: small;
+	font-weight: bold;
+	height: 9px;
+}
+.form_b_color
+{
+	color: #0B614B;
+	font-family: Sakal Marathi;
+	font-size: medium;
+	font-weight: bold;
+}
+.form_lbl_red
+{
+	font-family: Sakal Marathi;
+	color: #C00000;
+	font-weight: bold;
+}
+.form_lbl_red_s
+{
+	font-family: Sakal Marathi;
+	color: Red;
+	font-size: small;
+}
+.form_lbl_teal
+{
+	font-family: Sakal Marathi;
+	color: Teal;
+	font-weight: bold;
+}
+.form_txt_big
+{
+	width: 500px;
+	font-family: Sakal Marathi;
+}
+
+.mandatory_sign
+{
+	font-size: medium;
+	color: Red;
+	height: 5px;
+	width: 1px;
+}
+#main_content
+{
+	width: 95%;
+	min-height: 300px;
+	margin: 0 auto;
+	border: solid 1px black;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+#site_main_content
+{
+	min-height: 380px;
+	margin: 0 auto;
+	padding-top: 15px;
+	margin-top: -40px;
+	position: relative;
+}
+#login_content
+{
+	min-height: 300px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+.printdiv
+{
+	float: right;
+	margin-right: 5%;
+	position: relative;
+	margin-top: -95px;
+}
+.printbtn
+{
+	width: 28px;
+	height: 25px;
+}
+.clear_br
+{
+	clear: both;
+	margin-bottom: 4px;
+}
+
+.crystalreport
+{
+	background-color: White;
+	height: 1056px;
+	width: 790px;
+}
+/*=============login box style starts=================*/
+.login_box
+{
+	width: 35%;
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 2px;
+	position: relative;
+	margin-top: -20px;
+}
+.log_row
+{
+	width: 100%;
+}
+/*=============vipula=================*/
+.log_col1
+{
+	width: 40%;
+	padding: 5px;
+	float: left;
+}
+.lable_right
+{
+	float: right;
+	text-align: right;
+}
+/*=============vipula=================*/
+.log_col
+{
+	width: 49%;
+	padding-left: 10px;
+	float: left;
+}
+.log_colold
+{
+	width: 45%;
+	padding: 1%;
+	float: left;
+}
+.log_col_Left
+{
+	width: 43%;
+	padding-left: 10px;
+	float: left;
+}
+.log_center
+{
+	text-align: center;
+}
+.log_lbl
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 94px;
+	font-weight: bold;
+}
+.log_txt
+{
+	width: 140px;
+	font-family: Sakal Marathi;
+}
+.log_errmsg
+{
+	color: Red;
+	font-family: Sakal Marathi;
+	font-size: small;
+}
+.right_home
+{
+	width: 60px;
+	float: right;
+	margin-right: 10px;
+	font-family: Sakal Marathi;
+}
+.right_btn
+{
+	width: 100px;
+	float: right;
+	margin-right: 10px;
+	font-family: Sakal Marathi;
+	text-align: right;
+}
+.clear
+{
+	clear: both;
+}
+
+/*=============login box style ends=================*/
+/*===========pg doc status starts=================*/
+.table
+{
+	height: 164px;
+	width: 100%;
+}
+.table_col
+{
+	border: solid 1px black;
+	width: 100px;
+	float: left;
+	height: 50px;
+}
+.table_col_2
+{
+	border: solid 1px black;
+	width: 200px;
+	float: left;
+	height: 50px;
+}
+/*===========pg doc status ends===================*/
+/*===========Buyer Seller 712 starts=================*/
+.bstab
+{
+	width: 755px;
+	height: 1px;
+	text-align: center;
+}
+.td1
+{
+	text-align: center;
+	width: 1px;
+	height: 10px;
+}
+.td2
+{
+	text-align: center;
+	width: 2px;
+	height: 10px;
+}
+.td3
+{
+	text-align: center;
+	width: 8px;
+	height: 10px;
+}
+.td4
+{
+	text-align: center;
+	width: 3px;
+	height: 10px;
+}
+.td1_44
+{
+	text-align: center;
+	width: 1px;
+	height: 44px;
+}
+.td2_44
+{
+	text-align: center;
+	width: 2px;
+	height: 44px;
+}
+.td3_44
+{
+	text-align: center;
+	width: 8px;
+	height: 44px;
+}
+.td4_44
+{
+	text-align: center;
+	width: 3px;
+	height: 44px;
+}
+.bs_pnl
+{
+	width: 90%;
+	margin: 0 auto;
+}
+.partition
+{
+	width: 49%;
+	float: left;
+}
+.partition1
+{
+	width: 48%;
+	float: left;
+}
+.halfpartition
+{
+	width: 50%;
+	float: left;
+}
+/*===========Buyer Seller 712 ends=================*/
+.form_header_txt
+{
+	font-family: Sakal Marathi;
+	font-size: 16pt;
+	color: White;
+	font-weight: bold;
+}
+.top_img_size
+{
+	height: 79px;
+	width: 79px;
+}
+
+/*===========Vipula=================*/
+.keyboardimg
+{
+	width: 35px;
+	height: 40px;
+	cursor: pointer;
+}
+.middle_div
+{
+	width: 50%;
+	border: solid 1px black;
+	margin: 0 auto;
+	padding: 2px;
+}
+.mainfrm_dll
+{
+	width: 90%;
+	margin: 0 auto;
+}
+.column_30margin
+{
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+}
+.form_txt_340
+{
+	width: 340px;
+	font-family: Sakal Marathi;
+}
+
+/*==========================================*/
+.form_txt_query
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+	width: 60%;
+	height: 90px;
+}
+.column_20per_womargin
+{
+	width: 20%;
+	float: left;
+}
+.column_womargin1
+{
+	width: 11%;
+	float: left;
+	margin-left: 1%;
+}
+.column_face
+{
+	margin-left: 1%;
+	width: 25%;
+	float: left;
+}
+.column_face1
+{
+	margin-left: 1%;
+	width: 46%;
+	float: left;
+}
+.column_face2
+{
+	margin-left: 45%;
+	width: 35;
+}
+.column_margin20
+{
+	margin-left: 15%;
+	width: 20%;
+	float: left;
+}
+.column_s_ed
+{
+	margin-left: 1%;
+	width: 20%;
+	float: left;
+}
+.column_panel_adj
+{
+	width: 60%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 1%;
+}
+.column_panel1
+{
+	width: 55%;
+	float: left;
+	margin-left: 19%;
+	margin-top: 1%;
+}
+.column_margin10_adj
+{
+	margin-left: 10%;
+	width: 10%;
+	float: left;
+}
+.column_margin10
+{
+	margin-left: 10%;
+	width: 15%;
+	float: left;
+}
+.column_s_wid10
+{
+	margin-left: 1%;
+	width: 10%;
+	float: left;
+}
+.column_s_wid6 /**/
+{
+	margin-left: 1%;
+	width: 5%;
+	float: left;
+}
+.column_mainpagebtn /**/
+{
+	width: 19%;
+	float: left;
+}
+.drp_set /**/
+{
+	margin-left: 22%;
+	width: 15%;
+	float: left;
+}
+.btn_set /**/
+{
+	margin-left: 15%;
+	width: 13%;
+	float: left;
+}
+.full_column_adj /* */
+{
+	margin-left: 30%;
+	font-family: Sakal Marathi;
+	font-size: small;
+	height: 28px;
+}
+.set_btn /**/
+{
+	margin-left: 8%;
+	width: 5%;
+	float: left;
+}
+.set_adj /**/
+{
+	margin-left: 25%;
+	width: 12%;
+	float: left;
+}
+.column_adj1 /**/
+{
+	margin-left: 2%;
+	width: 11%;
+	float: left;
+}
+.column_big1 /**/
+{
+	width: 45%;
+	float: left;
+	margin-left: 10%;
+}
+.column_s_adj1 /**/
+{
+	margin-left: 7%;
+	width: 5%;
+	float: left;
+}
+.column_s_ed_adj /**/
+{
+	margin-left: 1%;
+	width: 15%;
+	float: left;
+}
+.column_s_wid8 /**/
+{
+	margin-left: 1%;
+	width: 8%;
+	float: left;
+}
+.column_s_wid13 /**/
+{
+	margin-left: 1%;
+	width: 11%;
+	float: left;
+}
+.lst_adj /* */
+{
+	width: 55px;
+	height: 70%;
+	font-family: Sakal Marathi;
+}
+/*================= Edit Style =======================*/
+.left_list
+{
+	margin-left: 1%;
+	width: 8%;
+	float: left;
+}
+.right_grid
+{
+	width: 90%;
+	float: left;
+}
+.all_pnl
+{
+	border: #0B614B 1px solid;
+	width: 99%;
+	margin: 0 auto;
+}
+/*11 MArch vipula*/
+.column_45
+{
+	width: 46%;
+	float: left;
+}
+.column_32
+{
+	width: 32%;
+	float: left;
+}
+
+.column_23
+{
+	width: 23%;
+	float: left;
+}
+.column_5
+{
+	width: 5%;
+	float: left;
+}
+.column_49
+{
+	width: 49%;
+	float: left;
+}
+.column_10
+{
+	width: 10%;
+	float: left;
+}
+/*13 March vipula*/
+
+.column_form12_60
+{
+	float: left;
+	width: 59%;
+	margin-left: 1%;
+}
+.right_txt
+{
+	float: right;
+	width: 40%;
+	text-align: right;
+}
+.mar_left
+{
+	margin-left: 1%;
+}
+.line_top
+{
+	border-top: #0B614B 1px solid;
+	width:99%;
+	margin:0 auto;
+}
+.line_left
+{
+	border-left: #0B614B 1px solid;
+}
+.column_big_smargin
+{
+	width: 45%;
+	float: left;
+	margin-left: 2%;
+}
+
+/* 10 May*/
+.bhogvat_grdpnl
+{
+	width: 100%;
+	margin: 0 auto;
+max-height:400px;
+}
+.itar_grdpnl
+{
+	width: 99%;
+	margin: 0 auto;
+max-height:400px;
+}
+.column_21per_mar1
+{
+	margin-left:1%;
+	width: 21%;
+	float: left;
+}
+.form12_column
+{
+	float:left;
+	width:17%;
+	margin-left:5%;
+}
+.form12_column_big
+{
+	float:left;
+	width:60%;
+	padding-right:50px;
+}
+
+

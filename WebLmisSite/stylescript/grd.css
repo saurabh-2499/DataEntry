@@ -1,0 +1,24 @@
+.fixedHeader
+{
+	overflow: auto;
+	height: 150px; 
+	width: 150px;
+}
+table th
+{
+	/*border-width: 1px;*/
+	/*border-color: Black;*/
+	/*background-color: #9C8B56;*/
+	position: relative;
+	top: expression(this.parentNode.parentNode.parentNode.scrollTop-1);
+}
+.ScrollerDivForTable
+{
+	HEIGHT :100px;\n
+	OVERFLOW :auto;
+	SCROLLBAR-BASE-COLOR :ButtonFace;
+	WIDTH:200px;
+}
+
+
+     

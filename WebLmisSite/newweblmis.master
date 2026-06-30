@@ -1,0 +1,173 @@
+﻿
+<%@ Master Language="VB" CodeFile="newweblmis.master.vb" Inherits="weblmis" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+
+<head runat="server" lang="mr">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,बोजा फेरफार ,तहसिलदार,तलाठी,सर्कल ऑफिसर,तालुका ,जिल्हा,गाव,खाता,वारस,अंगठा तपासनी,७/१२ प्रमाणीत करणे,फ़ेरफ़ार रद्द करणे,
+  तलाठि शेरा,७/१२ पहा" />
+ <title>.::राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम,महाराष्ट्र राज्य::.</title>
+ <link href="MainpageStyleSheet.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="stylescript/style.css"  type="text/css" />
+<link rel="stylesheet" href="stylescript/StyleSheet.css" type="text/css" runat="server" />
+ <link href="CSS/FloatingKeyboard.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="Javascript/textsizer.js"></script>
+ 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Expires" content="0" />
+   <meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript" language="javascript">
+javascript:window.history.forward(1)
+</script> 
+</head>
+
+    <!-- 1  16-12-2015 script for logout when user close the browser-->
+ <script language="JavaScript" type="text/javascript">
+     var x;
+     var y;
+     window.onclick = clicked;
+     window.onkeypress = keypress;
+
+     function clicked() {
+         x = window.event.clientX;
+         y = window.event.clientY;
+     }
+
+     function keypress() {
+         x = 1;
+         y = 1;
+     }
+
+     window.onbeforeunload = windowclose;
+
+
+     function windowclose() {
+         var newwindow;
+         if ((x < 0 || x == undefined) && (y < 0 || y == undefined)) {
+             if ((window.event.clientX < 0 || window.event.clientX == undefined) && (window.event.clientY < 0 || window.event.clientY == undefined)) {
+                 if (confirm("कृपया, आपले काम पूर्ण झाल्यावर \"बाहेर पडा/ Log out\" या पर्यायाचा वापर करावा.")) {
+                     newwindow = window.open("pgLogout.aspx", "myWindow", "width=1600, height=996, toolbar = yes, resizable = yes");
+                     if (newwindow != null && !newwindow.closed && newwindow.closed != undefined) {
+                         window.close();
+                         return;
+                     }
+                     else
+                         windowclose();
+                 }
+                 else {
+                     newwindow = window.open("pgLogout.aspx", "myWindow", "width=1600, height=996, toolbar = yes, resizable = yes");
+                     if (newwindow != null && !newwindow.closed && newwindow.closed != undefined) {
+                         window.close();
+                         return;
+                     }
+                     else
+                         windowclose();
+
+                 }
+
+                 window.close();
+             }
+         }
+     }
+</script>
+<body style="background-color: #f5ecef;">
+    <form id="form1" runat="server">
+   <%-- <div id="iPluginControlsIdToEnable" style="display: none">Marathi</div>--%>
+    <div align="center" style="padding-left:1px; padding-top: 0px;">
+        &nbsp;&nbsp;
+    </div>
+    <div align="center"  >
+    <table  class="wrapper" cellpadding="0" cellspacing="0"  height="100%" style="left: 5px; top: 0px; width: 870px; border-right: #666666 8px double; border-top: #666666 8px double; border-left: #666666 8px double; border-bottom: #666666 8px double; text-align: right;"  >
+    <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
+            <tr>
+                <td colspan="" style="width: 90px;  text-align: left; background-color: #9a3753;">
+                    <img src="Image/logonew.png" height="79" width="79" /></td>
+                <td style="width: 100px; background-color: #9a3753; text-align: center" valign="top">
+                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Size="Medium" ForeColor="White"
+                        Text="महाराष्ट्र राज्य" Font-Underline="False" Width="559px" Font-Names="Sakal Marathi"></asp:Label><br />
+                    &nbsp;<asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="16pt" ForeColor="White"
+                        Text="राष्ट्रीय  भूमि अभिलेख आधुनिकीकरण कार्यक्रम" Width="593px" Height="16px" Font-Names="Sakal Marathi"></asp:Label></td>
+                <td style="width: 100px; background-color: #9a3753; text-align: right" valign="top">
+                    <img src="Image/gov_logo.jpg" height="79" width="79" />
+                </td>
+            </tr>
+        </table>
+    </td>
+    </tr>
+        <tr>
+            <td style="vertical-align: top; background-color: #715a6c; text-align: right">
+        <div id="underlinemenu" style="background-color:#715a6c; text-align: center"><a href="../MainPage.aspx" class="md">मुख्य पृष्ठ|</a><a href="../eLinkage/pgLogin.aspx" class="md">भु.अ.नॊंदनी विभाग जोडणी (डि.स)| </a><a href="../eLinkagewd/pgLogin.aspx" class="md">भु.अ. - नॊंदणी विभाग जोडणी  | </a><a href="../mutation/pgWelCome.aspx" class="md">ई - फ़ेरफ़ार |</a><a href="../EditModule/pgWelCome.aspx"  class="md" > ऎडीट फ़ेरफ़ार </a><a href="../PrintUtility/login.aspx" class="md">|सात बारा पहा|</a><!-- <a href="MIS/pgLogin.aspx" class="md">MIS |</a> <a href="CropModule/pgcrop_info.aspx" class="md">CROP |</a>--> <a href="../Usercreation/frmMainForm.aspx" class="md"> व्यवस्थापन |</a><a href="../UserManul.aspx" class="md">मार्गदर्शिका खंड|</a>
+           <a href="../DocFile/SDC_HelpDesk.pdf" class="md">डाटा सेंटर माहिती कक्ष ।</a>  <a href="../search/phrasesearch.aspx" class="md">शॊधा ।</a>
+ 
+          </div>
+            </td>
+        </tr>
+        <tr>
+            <td  style="vertical-align: top; text-align: right;background-color:#715a6c;">
+               <a href="javascript:ts('body',1)"><span style="color: #ffffff">अ+</span></a>
+               |<a href="javascript:normal('body',3)"><span style="color: #ffffff">अ</span></a>
+                | <a href="javascript:ts('body',-1)"><span style="color: #ffffff">अ-</span></a>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px; padding-right: 10px;">
+                <img alt="Click here for Floating Keyboard" height="25" onclick="openKeyboard();"
+                    src="Image/keyboard.gif" style="cursor: pointer" title="Click here for Floating Keyboard"
+                    width="40" />
+                    <div id="keyBrd"></div>
+                <div id="Div1">
+                </div>
+               
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                </td>
+        </tr>
+        <tr>
+            <td style="padding-right: 10px; padding-left: 10px; vertical-align: middle; width: 905px;
+                        background-color: #715a6c; text-align: center">
+                        <a href="#" ><span style="font-size: 10pt; color: #ffffff; font-family: 'Sakal Marathi';">| मदत । </span></a>   <a href="../pgImpInofmation.aspx" >
+          <span style="font-size: 10pt; color: #ffffff; font-family: 'Sakal Marathi';">गुप्तता धोरण |</span></a><span
+              style="font-size: 10pt; color: #ffffff; font-family: 'Sakal Marathi';"> </span><a href="../pgImpInofmation.aspx" > <span style="font-size: 10pt;
+                  color: #ffffff">
+          वेबसाईट वापराच्या अटी |</span></a><span style="font-size: 10pt; color: #ffffff;font-family: 'Sakal Marathi';">
+                  </span><a href="../sitemap.htm" ><span style="font-size: 10pt; color: #ffffff;font-family: 'Sakal Marathi';">
+     वेबसाईट मार्ग निर्देशक   |</span></a><span
+                      style="font-size: 10pt; color: #ffffff;font-family: 'Sakal Marathi';"> </span><a href="#"> <span style="font-size: 10pt; color: #ffffff;font-family: 'Sakal Marathi';">
+         महत्वाची संकेतस्थळे |</span></a><span
+                              style="font-size: 10pt; color: #ffffff"> </span><a href="../feedback/pgLogin.aspx" > <span style="font-size: 10pt;
+                                  color: #ffffff;font-family: 'Sakal Marathi';">आभिप्राय |</span></a><a href="../ContactUs.aspx" >  <span style="font-size: 10pt;
+                                  color: #ffffff;font-family: 'Sakal Marathi';">संपर्क |</span></a>
+                    </td>
+
+        </tr>
+        <tr>
+            <td style="padding-left: 10px; padding-right: 10px; vertical-align: middle; text-align: center; width: 905px; background-color:  #715a6c;">
+                 <span style="FONT-SIZE: 7pt; FONT-FAMILY: Verdana; vertical-align: middle; text-align: center; color: #ffffff;">
+                <b>DISCLAIMER :Content on this website is owned, published and managed by Revenue & Forest Department MAHARASHTRA State. 
+                    <br />
+                Best Viewed in 1600x900 Last modified on &nbsp;&nbsp;22.09.2015<span style="color: #ff0000"><b>&nbsp;</b></span></b></span>
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"  AsyncPostBackTimeout="360">
+                    </asp:ScriptManager>
+                    
+               </td>
+        </tr>
+    </table>
+    </div>
+     
+    <div align="center" style="padding-left:1px;">
+        &nbsp;</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="newetar" targetNamespace="http://tempuri.org/newetar.xsd" xmlns:mstns="http://tempuri.org/newetar.xsd" xmlns="http://tempuri.org/newetar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="newetar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="newetar" msprop:Generator_UserDSName="newetar">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="mut_no" msprop:Generator_ColumnVarNameInTable="columnmut_no" msprop:Generator_ColumnPropNameInRow="mut_no" msprop:Generator_ColumnPropNameInTable="mut_noColumn" msprop:Generator_UserColumnName="mut_no" type="xs:string" minOccurs="0" />
+              <xs:element name="tenant_name" msprop:Generator_ColumnVarNameInTable="columntenant_name" msprop:Generator_ColumnPropNameInRow="tenant_name" msprop:Generator_ColumnPropNameInTable="tenant_nameColumn" msprop:Generator_UserColumnName="tenant_name" type="xs:string" minOccurs="0" />
+              <xs:element name="other_rights_code" msprop:Generator_ColumnVarNameInTable="columnother_rights_code" msprop:Generator_ColumnPropNameInRow="other_rights_code" msprop:Generator_ColumnPropNameInTable="other_rights_codeColumn" msprop:Generator_UserColumnName="other_rights_code" type="xs:string" minOccurs="0" />
+              <xs:element name="other_rights_sub_code" msprop:Generator_ColumnVarNameInTable="columnother_rights_sub_code" msprop:Generator_ColumnPropNameInRow="other_rights_sub_code" msprop:Generator_ColumnPropNameInTable="other_rights_sub_codeColumn" msprop:Generator_UserColumnName="other_rights_sub_code" type="xs:string" minOccurs="0" />
+              <xs:element name="checked" msprop:Generator_ColumnVarNameInTable="columnchecked" msprop:Generator_ColumnPropNameInRow="_checked" msprop:Generator_ColumnPropNameInTable="checkedColumn" msprop:Generator_UserColumnName="checked" type="xs:string" minOccurs="0" />
+              <xs:element name="usrno" msprop:Generator_ColumnVarNameInTable="columnusrno" msprop:Generator_ColumnPropNameInRow="usrno" msprop:Generator_ColumnPropNameInTable="usrnoColumn" msprop:Generator_UserColumnName="usrno" type="xs:string" minOccurs="0" />
+              <xs:element name="buyer_area_tot" msprop:Generator_ColumnVarNameInTable="columnbuyer_area_tot" msprop:Generator_ColumnPropNameInRow="buyer_area_tot" msprop:Generator_ColumnPropNameInTable="buyer_area_totColumn" msprop:Generator_UserColumnName="buyer_area_tot" type="xs:string" minOccurs="0" />
+              <xs:element name="area_unit" msprop:Generator_ColumnVarNameInTable="columnarea_unit" msprop:Generator_ColumnPropNameInRow="area_unit" msprop:Generator_ColumnPropNameInTable="area_unitColumn" msprop:Generator_UserColumnName="area_unit" type="xs:string" minOccurs="0" />
+              <xs:element name="other_rights_name" msprop:Generator_ColumnVarNameInTable="columnother_rights_name" msprop:Generator_ColumnPropNameInRow="other_rights_name" msprop:Generator_ColumnPropNameInTable="other_rights_nameColumn" msprop:Generator_UserColumnName="other_rights_name" type="xs:string" minOccurs="0" />
+              <xs:element name="other_rights_sub_name" msprop:Generator_ColumnVarNameInTable="columnother_rights_sub_name" msprop:Generator_ColumnPropNameInRow="other_rights_sub_name" msprop:Generator_ColumnPropNameInTable="other_rights_sub_nameColumn" msprop:Generator_UserColumnName="other_rights_sub_name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

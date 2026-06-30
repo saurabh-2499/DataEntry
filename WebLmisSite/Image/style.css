@@ -1,0 +1,249 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #464544;
+}
+a:hover {
+	color: #FFA405;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+.stylebody {
+	/*background: #E0D5B7 url(page_bg.jpg) repeat-x; Sakal Marathi*/
+	background: #CCC url(content.jpg) repeat-y center top;
+	text-align: center;
+	/*font: 11px verdana, arial, sans-serif;*/
+	font: Sakal Marathi;
+	color: #74653D;
+	padding-bottom: 10px;
+	padding-top: 61px;
+}
+
+.LoginStylebody {
+	background: #CCC url(content.jpg) repeat-y center top;
+	text-align: center;
+	/*font: 11px verdana, arial, sans-serif;*/
+	font: Sakal Marathi;
+	margin: 0px;
+	padding: 0px;
+	top:0px;
+	margin-top: -4px;
+}
+/** layout **/
+.wrapper 
+{
+	text-align: left;
+	margin: auto;
+	width: 878px;
+	position: relative;
+/*	border: solid 1px black;
+	background: url(body_bg.gif) repeat-y;*/
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 243px;
+  width: 635px;
+  height: 152px;
+  background: url(LogoText.jpg) repeat-x;
+  text-align:center;
+  vertical-align: middle;
+}
+.left {
+  float: left;
+  width: 243px;
+}
+.logo {
+  width: 890px;
+  height: 85px;
+  background: url(bgHeader.jpg);
+  color: #595959;
+  text-align:center;
+  vertical-align: middle;
+}
+#logo h1 {
+  padding-top: 30px;
+  font: 24px "arial narrow", arial, sans-serif;
+}
+#logo p {
+  margin: 8px 25px 4px 25px;
+  border-top: 1px solid #B8B8B8;
+  border-bottom: 1px solid #B8B8B8;
+  padding: 3px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+.nav {
+  color: #fff;
+  text-decoration: none;
+  border-left: 1px solid #959595;
+  padding-left: 10px;
+  width: 90%;
+  height: 222px;
+  border-bottom: 1px #959595;
+  vertical-align: top;
+}
+#nav ul {
+  margin-left: 9px;
+  padding-left: 1px;
+  padding-bottom: 29px;
+  background: #2A2A2A bottom left url(nav_bot.jpg) no-repeat;
+}
+#nav li {
+  list-style: none;
+  /*font: 14px "arial narrow", arial, sans-serif;*/
+  font: Sakal Marathi;
+  border-top: 1px solid #959595;
+  background: 188px 10px url(arr_white.gif) no-repeat;
+  padding: 7px 0 0 31px;
+}
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  border-left: 1px solid #959595;
+  padding-left: 10px;
+  display: block;
+  width: 90%;
+  padding: 2px 0 6px 8px;
+}
+#nav a:hover {
+  text-decoration: underline;
+}
+#nav .important {
+  border: none;
+  background: 188px 10px url(arr_orange.gif) no-repeat;
+}
+#nav .important a {
+  color: #E9C379;
+}
+
+#news {
+  background: url(news_bg.jpg) repeat-y;
+  padding-left: 37px;
+  padding-right: 22px;
+  padding-bottom: 3px;
+  text-align: justify;
+}
+#news h2 {
+  font-size: 12px;
+  color: #BE8B06;
+}
+#news h3, #news p {
+  font-size: 11px;
+  margin: 1em 8px 1em 0;
+}
+#news a {
+  color: #74653D;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#news a:hover {
+  color: #38301A;
+}
+#news .more {
+  font-size: 9px;
+}
+#news .hr-dots {
+  background: center url(dots.gif) repeat-x;
+  height: 10px;
+}
+
+#support {
+  background: url(support.jpg) no-repeat;
+  padding: 1px;
+  height: 97px;
+  color: #1A1A18;
+}
+#support p {
+  margin: 0.7em 2.6em;
+}
+
+.right 
+{
+  width: 590px;
+  padding-right: 9px;
+}
+.right h2 {
+  /*font: 18px arial, sans-serif;*/
+  font: Sakal Marathi;
+  color: #BE8B06;
+  border-bottom: 1px solid #C4AE7C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;
+}
+.right h3 {
+  /*font: 14px arial, sans-serif;*/
+  font: Sakal Marathi;
+  color: #BE8B06;
+  border-bottom: 1px solid #C4AE7C;
+  padding-bottom: 6px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+.Caption
+{
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 11px;
+	color: Black;
+	text-align: right;
+}
+.button
+{
+	/*font-family: Verdana;*/
+	font-family: Sakal Marathi;
+	font-size: 11px;
+	font-weight: bold;
+	height: 20px;
+	margin: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #000076;
+	background-color: inherit;
+	border: solid 1px black;
+	width: 80px;
+}
+.textboxes
+{
+	background-color: threedlightshadow;
+	/*font-family: Verdana;*/
+	font-family: Sakal Marathi;
+	height: 15px;
+}
+.textboxesTal
+{
+	background-color: captiontext;
+	/*font-family: Verdana;*/
+	font-family: Sakal Marathi;
+	height: 15px;
+}
+.labels
+{
+	color: #000076;
+	text-align: left;
+	font: Sakal Marathi;
+}
+/*.tableBody
+{
+	background-color: #dcf0f7;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#dcf0f7' ,endColorStr='#FFFFFF' ,gradientType= '0' );
+}
+*/

@@ -1,0 +1,144 @@
+﻿body {
+}
+
+.form_lbl
+{
+	font-family: Sakal Marathi;
+	font-size: small;
+}
+
+.login_box
+{
+	width: 32%;
+	margin:0 auto;
+	border: solid 1px black;
+	padding: 10px;
+}
+
+.log_row
+{
+	width: 100%;
+}
+.log_col
+{
+	width: 45%;
+	padding: 5px;
+	float: left;
+}
+.log_center
+{
+	text-align: center;
+}
+.log_lbl
+{
+	font-family: Arial Unicode MS;
+	font-size: small;
+	width: 94px;
+	font-weight: bold;
+}
+
+.log_txt
+{
+	width: 140px;
+	font-family: Arial Unicode MS;
+}
+
+.clear
+{
+	clear:both;	
+}
+
+.menu_row
+{
+	width: 100%;	
+}
+
+.menu_center1
+{
+    width:40%;
+    margin:0 auto; 
+}
+
+.menu_col
+{
+	width:40%;	
+	padding: 1px;
+	float:left;
+	/*margin:0 auto; */
+}
+
+.menu_col1
+{
+	width:40%;	
+	padding: 1px;
+	float:left;
+	/*margin:10 auto; */
+}
+
+.menu_header
+{
+    background-color:#3e73ac;
+	text-align: center;	
+}
+
+.menu_center
+{
+	text-align: center;	
+}
+.menu_left
+{
+	text-align:left;
+}
+.menu_right
+{
+	text-align:right;	
+}
+.menu_btn
+{
+	text-align: center;	
+}
+
+.drp
+{
+	text-align: left;	
+}
+.pnl
+{
+    width:35%;
+    border:solid 1px black;
+    height:40%;  
+    margin:0 auto;  
+}
+
+.pnl_new
+{
+    width:100%;
+    border:solid 1px black;
+    height:40%;  
+    margin:0 auto;  
+}
+
+.pnl_row
+{
+    width:100%;    
+}
+
+.pnl_col2
+{
+  width: 78%;
+  padding : 1px;
+  float : left;    
+}
+
+.pnl_col
+{
+    width: 45%;
+	padding: 5px;
+	float: left;  
+}
+.pnl_col1
+{
+    width: 20%;
+	padding: 5px;
+	float: left;  
+}

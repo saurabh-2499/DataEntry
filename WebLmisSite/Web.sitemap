@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="pgVillageSelection.aspx" title="गाव निवडा"  description="गाव निवडा">
+   <siteMapNode url="pgselectMutation.aspx" title="७/१२ डाटा एन्ट्री मॉड्युल"  description="७/१२ डाटा एन्ट्री मॉड्युल">
+      <siteMapNode url="pgLrMutationEntry.aspx" title="नमुना-9 नोटीस"  description="नमुना-9 नोटीस"/>
+      <siteMapNode url="AreaCorrection.aspx" title="क्षेत्र दुरूस्ती फेरफार नोंद"  description="क्षेत्र दुरूस्ती फेरफार नोंद"/>
+      <siteMapNode url="Amalgamation.aspx" title="एकत्रीकरन नोंद"  description="एकत्रीकरन नोंद"/>
+      <siteMapNode url="HakkaSod.aspx" title="हक्कसोड पत्र/रिलीज डिड"  description="हक्कसोड पत्र/रिलीज डिड"/>
+      <siteMapNode url="pgAdeshDastvaj.aspx" title="आदेश व दस्तावेज नोंद"  description="आदेश व दस्तावेज नोंद"/>
+      <siteMapNode url="pgEditMenu.aspx" title="सामान्य फेरफार"  description="सामान्य फेरफार"/>
+      <siteMapNode url="pglandacquisition.aspx" title="भूसंपादन नोंद"  description="भूसंपादन नोंद"/>
+      <siteMapNode url="pgmutBhadepatayne.aspx" title="भाडे पट्याने नोंद"  description="भाडे पट्याने नोंद"/>
+      <siteMapNode url="pgVarsregistration.aspx" title="वारस नोंद"  description="वारस नोंद"/>
+      <siteMapNode url="Mrutyupatra.aspx" title="मृत्युपत्र"  description="मृत्युपत्र"/>
+      <siteMapNode url="pgsellerDate.aspx" title=" नोटिस बजावल्याचा तपशील"  description=" नोटिस बजावल्याचा तपशील"/>
+      <siteMapNode url="pg_Bhoja.aspx" title="बोजा नोंद"  description="बोजा नोंद"/>
+      <siteMapNode url="pg_Bhoja_kamikarne.aspx" title="बोजा कमी करणे नोंद"  description="बोजा कमी करणे नोंद"/>
+      <siteMapNode url="SurveyNoSubdivision.aspx" title="पोट विभाजन नोंद"  description="पोट विभाजन नोंद"/>
+      <siteMapNode url="TenureChange.aspx" title="धारणा प्रकारात बदल नोंद"  description="धारणा प्रकारात बदल नोंद"/>
+      <siteMapNode url="VadiVibhajan.aspx" title="वाडी विभाजन नोंद"  description="वाडी विभाजन नोंद"/>
+      <siteMapNode url="Vatanipatra.aspx" title="वाटपाने/वाटणीपत्राने नोंद"  description="वाटपाने/वाटणीपत्राने नोंद"/>
+      <siteMapNode url="pgNameChange.aspx" title="राजपत्राने नावात बदल"  description="राजपत्राने नावात बदल"/>
+      <siteMapNode url="pg_Boja_visheshAdhikari.aspx" title="विशेष वसुली अधिकारी यांचे आदेशाने बोजा नोंद"  description="विशेष वसुली अधिकारी यांचे आदेशाने बोजा नोंद"/>
+      <siteMapNode url="pg_boja_Japti.aspx" title="स्थावर मालमत्ता जप्ती"  description="स्थावर मालमत्ता जप्ती"/>
+      <siteMapNode url="Apak.aspx" title="अ.पा.क शेरा कमी करणे"  description="अ.पा.क शेरा कमी करणे"/>
+      <siteMapNode url="pgAkumay.aspx" title="ए.कु.मॅ नोंद कमी करणे"  description="ए.कु.मॅ नोंद कमी करणे"/>
+      <siteMapNode url="pgNotice_lease_pending.aspx" title="नोटीस ऑफ लिस पेंडन्सी"  description="नोटीस ऑफ लिस पेंडन्सी"/>
+      <!--<siteMapNode url="pgAdeshDastvaj.aspx" title="न्यायालय आदेश"  description="न्यायालय आदेश"/>-->
+      <siteMapNode url="pgReallocation.aspx" title="पुर्नवसनाबाबत आदेशाने"  description="पुर्नवसनाबाबत आदेशाने"/>
+      <siteMapNode url="MayatacheNavKami.aspx" title="मयताचे नांव कमी करणे"  description="मयताचे नांव कमी करणे"/>
+      <siteMapNode url="FalaniBarane.aspx" title="फाळणी बाराने"  description="फाळणी बाराने"/>
+      <siteMapNode url="Adalabadali.aspx" title="आदलाबदलीने"  description="आदलाबदलीने"/>
+      <siteMapNode url="pgKharedi_Multiview.aspx" title="खरेदी"  description="खरेदी"/>
+      <siteMapNode url="pgLREntry.aspx" title="फेरफार संबंधी माहिती"  description="फेरफार संबंधी माहिती"/>
+      <siteMapNode url="View712.aspx" title="७/१२ पहा"  description="७/१२ पहा"/>
+    </siteMapNode>
+    <siteMapNode url ="pgEntryverify.aspx" title ="फ़ेरफ़ार प्रमाणीत करणे" description ="फ़ेरफ़ार प्रमाणीत करणे">
+    </siteMapNode>
+  </siteMapNode >
+</siteMap>
+
+

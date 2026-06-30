@@ -1,0 +1,136 @@
+﻿body {
+}
+.LabelHeader
+{
+	color:White;
+	font-family: Verdana;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size:medium;
+}
+.LabelEng
+{
+	font-size: small;
+	color: #006400;
+	font-family: Verdana;
+	font-weight: bold;
+	vertical-align: middle;
+	
+	height: 21px;
+}
+.LabelMar
+{
+	font-size: smaller;
+	color: #006400;
+	font-family: 'Arial Unicode MS';
+	font-weight: normal;
+	vertical-align: middle;
+}
+.LabelMessage
+{
+	font-size: medium;
+	color: Maroon;
+	font-family: 'Arial Unicode MS';
+	font-weight: normal;
+	vertical-align: middle;
+}
+.ButtonCSS
+{
+	color: Maroon;
+	background-color:ButtonShadow;
+	font-size: 9pt;
+	width: 100%;
+	font-family: Verdana;
+	font-weight:bold;
+	border-color:Yellow;
+	
+}
+.Grid_Label
+{	
+	background: #715a6c;
+	font-size: small;
+	color:#191970;
+	width: 100%;
+	vertical-align: top;
+	font-family:@Arial Unicode MS;
+	text-align: center;
+	height:20px;
+	
+}
+.Grid_Data
+{		
+	font-size:xx-large; 
+	color:Black;
+	width: 100%;
+	vertical-align: top;
+	font-family:@Arial Unicode MS;
+	text-align: center;
+	height:40px;
+	
+}
+.Label_header
+{
+	font-size: small ;
+	color:#191970;
+	width: 100%;
+	vertical-align: top;
+	font-family:Perpetua;
+	text-align: left;
+}
+.TextBoxClass
+{
+	font-family:Verdana;
+	font-size:small;
+	border-color:#8DAFD6;
+	border-style:solid;
+	font-weight:normal;
+	color:Black;
+}
+.tr
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:#715a6c;		
+	vertical-align: top;
+	 height:30px;
+	text-align:center;
+	  
+}
+.footer
+{
+	background-color:#EBEBEB;
+	text-align:center;
+}
+.footer line
+{
+	text-transform:uppercase;
+	display:inline;
+	font-weight:bold;
+	padding:5px;	
+	color:#005985;
+}
+
+.modalBackground
+{
+background-color:rgb(186, 220, 233);
+filter:alpha(opacity=70);
+opacity:0.7;
+}
+
+.modalPopup
+{
+background-color:Gray;
+border-width:3px;
+border-style:solid;
+border-color:Gray;
+padding:3px;
+width:250px;
+position:absolute;
+visibility:hidden;
+}
+.pnl_w_maxheight
+{
+	max-height:400px;
+}
+/*edit*/
+

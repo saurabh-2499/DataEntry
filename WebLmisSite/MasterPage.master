@@ -1,0 +1,59 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="mr-IN" xml:lang="mr-IN">
+<head runat="server">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Department of Land Records - MAHARASHTRA</title>
+</head>
+<body bgcolor="#e8f5f5" >
+    <form id="form1" runat="server" >
+    <div style="background-image: url(images/backgd.jpg); background-color: #f8ffff;">
+        <table style="z-index: 113; left: 12px; width: 496px; position: absolute; top: 3px; font-size: medium; background-color: transparent;">
+            <tr>
+                <td colspan="3" rowspan="3" style="height: 48px; background-color: #e8f5f5; width: 446px;">
+                   
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Lucida Calligraphy" Font-Size="XX-Large"
+                        ForeColor="Maroon" Style="z-index: 100; left: 67px; position: absolute; top: 7px"
+                        Text="  Mahabhulekh " Width="239px" BackColor="#E8F5F5" Height="42px"></asp:Label>
+                    <asp:ImageButton ID="ImageButton2" runat="server" Height="52px" ImageUrl="~/images/mhlogo.gif"
+                        Style="z-index: 103; left: 321px; position: absolute; top: -2px" Width="72px" />
+                    <asp:ImageButton ID="ImageButton1" runat="server" Height="59px" ImageUrl="~/images/homepage.jpg"
+                        Style="z-index: 102; left: -2px; position: absolute; top: -9px" Width="59px" ToolTip="Navigate to Home Page" />
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+        <br />
+       
+        <asp:Label ID="Label2" runat="server" BackColor="#E8F5F5" Font-Bold="True" Font-Names="Arial"
+            Font-Size="Large" ForeColor="DarkBlue" Height="24px" Style="z-index: 114; left: 440px;
+            position: absolute; top: 5px" Text="Department of Land Records, Government of MAHARASHTRA"
+            Width="527px"></asp:Label>
+        <asp:Label ID="Label3" runat="server" BackColor="#E8F5F5" Font-Bold="True" Font-Names="Lucida Sans Typewriter"
+            Font-Size="X-Large" ForeColor="Maroon" Height="24px" Style="z-index: 101; left: 506px;
+            position: absolute; top: 29px" Text="7/12 (Unicode) Web Site" Width="461px"></asp:Label>
+       
+        <asp:Image ID="Image1" runat="server" Height="53px" ImageUrl="~/images/natsym.gif"
+            Style="z-index: 102; left: 967px; position: absolute; top: 2px" Width="68px" />
+        <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+       
+        <br />
+        <br />
+        <asp:Image ID="Image3" runat="server" Height="66px" ImageUrl="~/images/g2c_final6.bmp"
+            Style="z-index: 104; left: 16px; position: absolute; top: 60px" Width="1017px" />
+       <br />
+       
+        <br />
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <br />
+    </div>
+    </form>
+</body>
+</html>

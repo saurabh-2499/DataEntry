@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsEdit" targetNamespace="http://tempuri.org/dsEdit.xsd" xmlns:mstns="http://tempuri.org/dsEdit.xsd" xmlns="http://tempuri.org/dsEdit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsEdit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsEdit" msprop:Generator_UserDSName="dsEdit">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataRpt" msprop:Generator_TableClassName="dataRptDataTable" msprop:Generator_TableVarName="tabledataRpt" msprop:Generator_TablePropName="dataRpt" msprop:Generator_RowDeletingName="dataRptRowDeleting" msprop:Generator_RowChangingName="dataRptRowChanging" msprop:Generator_RowEvHandlerName="dataRptRowChangeEventHandler" msprop:Generator_RowDeletedName="dataRptRowDeleted" msprop:Generator_UserTableName="dataRpt" msprop:Generator_RowChangedName="dataRptRowChanged" msprop:Generator_RowEvArgName="dataRptRowChangeEvent" msprop:Generator_RowClassName="dataRptRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="surveyno" msprop:Generator_ColumnVarNameInTable="columnsurveyno" msprop:Generator_ColumnPropNameInRow="surveyno" msprop:Generator_ColumnPropNameInTable="surveynoColumn" msprop:Generator_UserColumnName="surveyno" type="xs:string" minOccurs="0" />
+              <xs:element name="correction_deal" msprop:Generator_ColumnVarNameInTable="columncorrection_deal" msprop:Generator_ColumnPropNameInRow="correction_deal" msprop:Generator_ColumnPropNameInTable="correction_dealColumn" msprop:Generator_UserColumnName="correction_deal" type="xs:string" minOccurs="0" />
+              <xs:element name="confirm_date" msprop:Generator_ColumnVarNameInTable="columnconfirm_date" msprop:Generator_ColumnPropNameInRow="confirm_date" msprop:Generator_ColumnPropNameInTable="confirm_dateColumn" msprop:Generator_UserColumnName="confirm_date" type="xs:string" minOccurs="0" />
+              <xs:element name="correction_date" msprop:Generator_ColumnVarNameInTable="columncorrection_date" msprop:Generator_ColumnPropNameInRow="correction_date" msprop:Generator_ColumnPropNameInTable="correction_dateColumn" msprop:Generator_UserColumnName="correction_date" type="xs:string" minOccurs="0" />
+              <xs:element name="edit_trans_no" msprop:Generator_ColumnVarNameInTable="columnedit_trans_no" msprop:Generator_ColumnPropNameInRow="edit_trans_no" msprop:Generator_ColumnPropNameInTable="edit_trans_noColumn" msprop:Generator_UserColumnName="edit_trans_no" type="xs:string" minOccurs="0" />
+              <xs:element name="edit_change" msprop:Generator_ColumnVarNameInTable="columnedit_change" msprop:Generator_ColumnPropNameInRow="edit_change" msprop:Generator_ColumnPropNameInTable="edit_changeColumn" msprop:Generator_UserColumnName="edit_change" type="xs:string" minOccurs="0" />
+              <xs:element name="edit_save" msprop:Generator_ColumnVarNameInTable="columnedit_save" msprop:Generator_ColumnPropNameInRow="edit_save" msprop:Generator_ColumnPropNameInTable="edit_saveColumn" msprop:Generator_UserColumnName="edit_save" type="xs:string" minOccurs="0" />
+              <xs:element name="edit_12" msprop:Generator_ColumnVarNameInTable="columnedit_12" msprop:Generator_ColumnPropNameInRow="edit_12" msprop:Generator_ColumnPropNameInTable="edit_12Column" msprop:Generator_UserColumnName="edit_12" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSummary" msprop:Generator_TableClassName="dtSummaryDataTable" msprop:Generator_TableVarName="tabledtSummary" msprop:Generator_TablePropName="dtSummary" msprop:Generator_RowDeletingName="dtSummaryRowDeleting" msprop:Generator_RowChangingName="dtSummaryRowChanging" msprop:Generator_RowEvHandlerName="dtSummaryRowChangeEventHandler" msprop:Generator_RowDeletedName="dtSummaryRowDeleted" msprop:Generator_UserTableName="dtSummary" msprop:Generator_RowChangedName="dtSummaryRowChanged" msprop:Generator_RowEvArgName="dtSummaryRowChangeEvent" msprop:Generator_RowClassName="dtSummaryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="surveyno" msprop:Generator_ColumnVarNameInTable="columnsurveyno" msprop:Generator_ColumnPropNameInRow="surveyno" msprop:Generator_ColumnPropNameInTable="surveynoColumn" msprop:Generator_UserColumnName="surveyno" type="xs:string" minOccurs="0" />
+              <xs:element name="deal_text_original_old" msprop:Generator_ColumnVarNameInTable="columndeal_text_original_old" msprop:Generator_ColumnPropNameInRow="deal_text_original_old" msprop:Generator_ColumnPropNameInTable="deal_text_original_oldColumn" msprop:Generator_UserColumnName="deal_text_original_old" type="xs:string" minOccurs="0" />
+              <xs:element name="deal_text_original_new" msprop:Generator_ColumnVarNameInTable="columndeal_text_original_new" msprop:Generator_ColumnPropNameInRow="deal_text_original_new" msprop:Generator_ColumnPropNameInTable="deal_text_original_newColumn" msprop:Generator_UserColumnName="deal_text_original_new" type="xs:string" minOccurs="0" />
+              <xs:element name="deal_code_text" msprop:Generator_ColumnVarNameInTable="columndeal_code_text" msprop:Generator_ColumnPropNameInRow="deal_code_text" msprop:Generator_ColumnPropNameInTable="deal_code_textColumn" msprop:Generator_UserColumnName="deal_code_text" type="xs:string" minOccurs="0" />
+              <xs:element name="deal_text_matter" msprop:Generator_ColumnVarNameInTable="columndeal_text_matter" msprop:Generator_ColumnPropNameInRow="deal_text_matter" msprop:Generator_ColumnPropNameInTable="deal_text_matterColumn" msprop:Generator_UserColumnName="deal_text_matter" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

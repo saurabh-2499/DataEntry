@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds2" targetNamespace="http://tempuri.org/ds2.xsd" xmlns:mstns="http://tempuri.org/ds2.xsd" xmlns="http://tempuri.org/ds2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds2" msprop:Generator_DataSetName="ds2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="khata_no" msprop:Generator_UserColumnName="khata_no" msprop:Generator_ColumnVarNameInTable="columnkhata_no" msprop:Generator_ColumnPropNameInRow="khata_no" msprop:Generator_ColumnPropNameInTable="khata_noColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fname" msprop:Generator_UserColumnName="fname" msprop:Generator_ColumnVarNameInTable="columnfname" msprop:Generator_ColumnPropNameInRow="fname" msprop:Generator_ColumnPropNameInTable="fnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="mname" msprop:Generator_UserColumnName="mname" msprop:Generator_ColumnVarNameInTable="columnmname" msprop:Generator_ColumnPropNameInRow="mname" msprop:Generator_ColumnPropNameInTable="mnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="lname" msprop:Generator_UserColumnName="lname" msprop:Generator_ColumnVarNameInTable="columnlname" msprop:Generator_ColumnPropNameInRow="lname" msprop:Generator_ColumnPropNameInTable="lnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="topan_name" msprop:Generator_UserColumnName="topan_name" msprop:Generator_ColumnVarNameInTable="columntopan_name" msprop:Generator_ColumnPropNameInRow="topan_name" msprop:Generator_ColumnPropNameInTable="topan_nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="buyer_area_tot" msprop:Generator_UserColumnName="buyer_area_tot" msprop:Generator_ColumnVarNameInTable="columnbuyer_area_tot" msprop:Generator_ColumnPropNameInRow="buyer_area_tot" msprop:Generator_ColumnPropNameInTable="buyer_area_totColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="na_assessment" msprop:Generator_UserColumnName="na_assessment" msprop:Generator_ColumnVarNameInTable="columnna_assessment" msprop:Generator_ColumnPropNameInRow="na_assessment" msprop:Generator_ColumnPropNameInTable="na_assessmentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="buyer_anne" msprop:Generator_UserColumnName="buyer_anne" msprop:Generator_ColumnVarNameInTable="columnbuyer_anne" msprop:Generator_ColumnPropNameInRow="buyer_anne" msprop:Generator_ColumnPropNameInTable="buyer_anneColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="buyer_pai" msprop:Generator_UserColumnName="buyer_pai" msprop:Generator_ColumnVarNameInTable="columnbuyer_pai" msprop:Generator_ColumnPropNameInRow="buyer_pai" msprop:Generator_ColumnPropNameInTable="buyer_paiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="buyer_pot" msprop:Generator_UserColumnName="buyer_pot" msprop:Generator_ColumnVarNameInTable="columnbuyer_pot" msprop:Generator_ColumnPropNameInRow="buyer_pot" msprop:Generator_ColumnPropNameInTable="buyer_potColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="usrno" msprop:Generator_UserColumnName="usrno" msprop:Generator_ColumnVarNameInTable="columnusrno" msprop:Generator_ColumnPropNameInRow="usrno" msprop:Generator_ColumnPropNameInTable="usrnoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="khata_description" msprop:Generator_UserColumnName="khata_description" msprop:Generator_ColumnVarNameInTable="columnkhata_description" msprop:Generator_ColumnPropNameInRow="khata_description" msprop:Generator_ColumnPropNameInTable="khata_descriptionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,73 @@
+﻿#underlinemenu{
+margin: 0;
+padding: 0;
+}
+
+#underlinemenu ul{
+margin: 0;
+margin-bottom: 1em;
+padding-left: 0px;
+float: left;
+font-weight: bold;
+height:20px;
+width: 100%;
+border: 1px solid #DFDFDF;
+border-width: 1px 0;
+}
+
+* html #underlinemenu ul{ /*IE only rule. Delete extra margin-bottom*/
+margin-bottom: 0;
+}
+
+#underlinemenu ul li{
+display: inline;
+}
+
+
+#underlinemenu ul li a{
+float: left;
+/*color: #ffffff;*/
+color:White;
+font-weight: bold;
+font-size:14px;
+padding: 2px 8px 8px 8px;
+text-decoration: none;
+background:Black top right repeat-y;
+}
+
+#underlinemenu ul li a:hover{
+color: White;
+padding-bottom: 4px;
+}
+.md:link 
+{                                                                     /*#000033*/
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:White; font-weight:bold; text-decoration: none;
+}
+.md:visited 
+{
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:White;  font-weight:bold; text-decoration: none;
+}
+.md:active 
+{
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:White;  font-weight:bold; text-decoration: none;
+}
+.md:hover 
+{
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:#41133e;  font-weight:bold;
+}
+.ad:link 
+{                                                                     /*#000033*/
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:Blue; font-weight:bold; text-decoration: none;
+}
+.ad:visited 
+{
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:Blue; font-weight:bold; text-decoration: none;
+}
+.ad:active 
+{
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:Blue; font-weight:bold; text-decoration: none;
+}
+.ad:hover 
+{
+font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; color:red; font-weight:bold;
+}

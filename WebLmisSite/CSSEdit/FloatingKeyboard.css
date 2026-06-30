@@ -1,0 +1,149 @@
+input.kbdBtn
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	color:black;
+	border-style: solid;
+	border-right:1px;
+	border-color:#f1f1f1;
+	background-color:#A0D8FF;
+	border-right:#045187;
+	border: 1px solid #1870AD;
+	height:25pt;
+	width:25pt;
+	position: relative;
+	margin: 1px;
+}
+
+input.kbdBtnDisable
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	color:black;
+	border-style: solid;
+	border-width: 1pt;
+	background-color:#638EB9;
+	border-color:#999999;
+	height:25pt;
+	border: 1px solid #1870AD;
+	position: relative;
+	margin: 1px;
+}
+input.kbdEnterBtn
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	color:black;
+	border-style: solid;
+	border-width: 1pt;
+	background-color:#638EB9;
+	border-color:#999999;
+	height : 25pt;
+	width : 43pt;
+	border: 1px solid #1870AD;
+	position: relative;
+	margin: 1px;
+}
+input.kbdSpaceBarBtn
+{
+	font-family:'Sakal Marathi';
+	font-size: 13pt;
+	color:black;
+	border-style: solid;
+	border-width: 1pt;
+	background-color:#638EB9;
+	border-color:#999999;
+	height:25pt;
+	width:150pt;
+	border: 1px solid #1870AD;
+	position: relative;	
+	margin: 1px;
+}
+img.companyLogo
+{
+	height:20pt;
+	border:0pt;
+}
+input.shiftBtnDown
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	color:black;
+	border-style: solid;
+	border-width: 1pt;
+	background-color:#638EB9;
+	border-color:#999999;
+	border-color:#f1f1f1;
+	height:25pt;
+	width:40pt;
+	border: 1px solid #638EB9;
+	position: relative;
+	margin: 1px;	
+}
+input.shiftBtnUp
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	color:black;
+	border-style: solid;
+	border-width: 1pt;
+	background-color:#A0D8FF;
+	border-right:#045187;
+	border-color:#f1f1f1;
+	height:25pt;
+	width:25pt;
+	border: 1px solid #1870AD;
+	position: relative;
+	margin: 1px;
+}
+input.btnMouseOver
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	border-style: solid;
+	border-right: 1px;
+	height:25pt;
+	width:25pt;	
+	border-color:#f1f1f1;
+	background-color:#1870AD;
+	color : White;
+	border-right:#045187;
+	border: 1px solid #1870AD;
+	position: relative;
+	margin: 1px;
+}
+input.btnMouseOut
+{
+	font-family:'Sakal Marathi';
+	font-size: 12pt;
+	border-style: solid;
+	border-right: 1px;
+	height:25pt;
+	width:25pt;
+	border-color:#f1f1f1;
+	background-color:#A0D8FF;
+	color : Black;
+	border-right:#045187;
+	border: 1px solid #1870AD;
+	position: relative;
+	margin: 1px;
+}
+/*=====================================================================================*/
+div.dimming{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	background-color: #ffffff;
+	position:absolute;
+	z-index:10000;
+	visibility: hidden;
+	border-style: solid;
+	border-color: #778899;
+	border-width: 1px;
+	/*Set Keyboard position on web page from these paramenters*/
+	top :200px;
+	left:200px;
+	width:530px;
+	height:218px;
+}
+/*=================================================================================================*/

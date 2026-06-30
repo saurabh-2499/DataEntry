@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="rpt8a" targetNamespace="http://tempuri.org/rpt8a.xsd" xmlns:mstns="http://tempuri.org/rpt8a.xsd" xmlns="http://tempuri.org/rpt8a.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="rpt8a" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="rpt8a" msprop:Generator_DataSetName="rpt8a">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="table8a" msprop:Generator_UserTableName="table8a" msprop:Generator_RowDeletedName="table8aRowDeleted" msprop:Generator_RowChangedName="table8aRowChanged" msprop:Generator_RowClassName="table8aRow" msprop:Generator_RowChangingName="table8aRowChanging" msprop:Generator_RowEvArgName="table8aRowChangeEvent" msprop:Generator_RowEvHandlerName="table8aRowChangeEventHandler" msprop:Generator_TableClassName="table8aDataTable" msprop:Generator_TableVarName="tabletable8a" msprop:Generator_RowDeletingName="table8aRowDeleting" msprop:Generator_TablePropName="table8a">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="total_area_h" msprop:Generator_UserColumnName="total_area_h" msprop:Generator_ColumnVarNameInTable="columntotal_area_h" msprop:Generator_ColumnPropNameInRow="total_area_h" msprop:Generator_ColumnPropNameInTable="total_area_hColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_judi" msprop:Generator_UserColumnName="total_judi" msprop:Generator_ColumnVarNameInTable="columntotal_judi" msprop:Generator_ColumnPropNameInRow="total_judi" msprop:Generator_ColumnPropNameInTable="total_judiColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="nuksan" msprop:Generator_UserColumnName="nuksan" msprop:Generator_ColumnVarNameInTable="columnnuksan" msprop:Generator_ColumnPropNameInRow="nuksan" msprop:Generator_ColumnPropNameInTable="nuksanColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="zp_cess" msprop:Generator_UserColumnName="zp_cess" msprop:Generator_ColumnVarNameInTable="columnzp_cess" msprop:Generator_ColumnPropNameInRow="zp_cess" msprop:Generator_ColumnPropNameInTable="zp_cessColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="vp_cess" msprop:Generator_UserColumnName="vp_cess" msprop:Generator_ColumnVarNameInTable="columnvp_cess" msprop:Generator_ColumnPropNameInRow="vp_cess" msprop:Generator_ColumnPropNameInTable="vp_cessColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_UserColumnName="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="khata_no" msprop:Generator_UserColumnName="khata_no" msprop:Generator_ColumnVarNameInTable="columnkhata_no" msprop:Generator_ColumnPropNameInRow="khata_no" msprop:Generator_ColumnPropNameInTable="khata_noColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="district" msprop:Generator_UserColumnName="district" msprop:Generator_ColumnVarNameInTable="columndistrict" msprop:Generator_ColumnPropNameInRow="district" msprop:Generator_ColumnPropNameInTable="districtColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="taluka" msprop:Generator_UserColumnName="taluka" msprop:Generator_ColumnVarNameInTable="columntaluka" msprop:Generator_ColumnPropNameInRow="taluka" msprop:Generator_ColumnPropNameInTable="talukaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="village" msprop:Generator_UserColumnName="village" msprop:Generator_ColumnVarNameInTable="columnvillage" msprop:Generator_ColumnPropNameInRow="village" msprop:Generator_ColumnPropNameInTable="villageColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="pin" msprop:Generator_UserColumnName="pin" msprop:Generator_ColumnVarNameInTable="columnpin" msprop:Generator_ColumnPropNameInRow="pin" msprop:Generator_ColumnPropNameInTable="pinColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="pin1" msprop:Generator_UserColumnName="pin1" msprop:Generator_ColumnVarNameInTable="columnpin1" msprop:Generator_ColumnPropNameInRow="pin1" msprop:Generator_ColumnPropNameInTable="pin1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin2" msprop:Generator_UserColumnName="pin2" msprop:Generator_ColumnVarNameInTable="columnpin2" msprop:Generator_ColumnPropNameInRow="pin2" msprop:Generator_ColumnPropNameInTable="pin2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin3" msprop:Generator_UserColumnName="pin3" msprop:Generator_ColumnVarNameInTable="columnpin3" msprop:Generator_ColumnPropNameInRow="pin3" msprop:Generator_ColumnPropNameInTable="pin3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin4" msprop:Generator_UserColumnName="pin4" msprop:Generator_ColumnVarNameInTable="columnpin4" msprop:Generator_ColumnPropNameInRow="pin4" msprop:Generator_ColumnPropNameInTable="pin4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin5" msprop:Generator_UserColumnName="pin5" msprop:Generator_ColumnVarNameInTable="columnpin5" msprop:Generator_ColumnPropNameInRow="pin5" msprop:Generator_ColumnPropNameInTable="pin5Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin6" msprop:Generator_UserColumnName="pin6" msprop:Generator_ColumnVarNameInTable="columnpin6" msprop:Generator_ColumnPropNameInRow="pin6" msprop:Generator_ColumnPropNameInTable="pin6Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin7" msprop:Generator_UserColumnName="pin7" msprop:Generator_ColumnVarNameInTable="columnpin7" msprop:Generator_ColumnPropNameInRow="pin7" msprop:Generator_ColumnPropNameInTable="pin7Column" type="xs:string" minOccurs="0" />
+              <xs:element name="pin8" msprop:Generator_UserColumnName="pin8" msprop:Generator_ColumnVarNameInTable="columnpin8" msprop:Generator_ColumnPropNameInRow="pin8" msprop:Generator_ColumnPropNameInTable="pin8Column" type="xs:string" minOccurs="0" />
+              <xs:element name="numeric_pin" msprop:Generator_UserColumnName="numeric_pin" msprop:Generator_ColumnVarNameInTable="columnnumeric_pin" msprop:Generator_ColumnPropNameInRow="numeric_pin" msprop:Generator_ColumnPropNameInTable="numeric_pinColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="blankReport" msprop:Generator_UserColumnName="blankReport" msprop:Generator_ColumnVarNameInTable="columnblankReport" msprop:Generator_ColumnPropNameInRow="blankReport" msprop:Generator_ColumnPropNameInTable="blankReportColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="year" msprop:Generator_UserColumnName="year" msprop:Generator_ColumnVarNameInTable="columnyear" msprop:Generator_ColumnPropNameInRow="year" msprop:Generator_ColumnPropNameInTable="yearColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="type" msprop:Generator_UserColumnName="type" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInTable="typeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="table8a_names" msprop:Generator_UserTableName="table8a_names" msprop:Generator_RowDeletedName="table8a_namesRowDeleted" msprop:Generator_RowChangedName="table8a_namesRowChanged" msprop:Generator_RowClassName="table8a_namesRow" msprop:Generator_RowChangingName="table8a_namesRowChanging" msprop:Generator_RowEvArgName="table8a_namesRowChangeEvent" msprop:Generator_RowEvHandlerName="table8a_namesRowChangeEventHandler" msprop:Generator_TableClassName="table8a_namesDataTable" msprop:Generator_TableVarName="tabletable8a_names" msprop:Generator_RowDeletingName="table8a_namesRowDeleting" msprop:Generator_TablePropName="table8a_names">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="khata_no" msprop:Generator_UserColumnName="khata_no" msprop:Generator_ColumnPropNameInRow="khata_no" msprop:Generator_ColumnVarNameInTable="columnkhata_no" msprop:Generator_ColumnPropNameInTable="khata_noColumn" type="xs:unsignedInt" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ccode" msprop:Generator_UserColumnName="ccode" msprop:Generator_ColumnPropNameInRow="ccode" msprop:Generator_ColumnVarNameInTable="columnccode" msprop:Generator_ColumnPropNameInTable="ccodeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="table_sum" msprop:Generator_UserTableName="table_sum" msprop:Generator_RowDeletedName="table_sumRowDeleted" msprop:Generator_RowChangedName="table_sumRowChanged" msprop:Generator_RowClassName="table_sumRow" msprop:Generator_RowChangingName="table_sumRowChanging" msprop:Generator_RowEvArgName="table_sumRowChangeEvent" msprop:Generator_RowEvHandlerName="table_sumRowChangeEventHandler" msprop:Generator_TableClassName="table_sumDataTable" msprop:Generator_TableVarName="tabletable_sum" msprop:Generator_RowDeletingName="table_sumRowDeleting" msprop:Generator_TablePropName="table_sum">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="total_area_h" msprop:Generator_UserColumnName="total_area_h" msprop:Generator_ColumnPropNameInRow="total_area_h" msprop:Generator_ColumnVarNameInTable="columntotal_area_h" msprop:Generator_ColumnPropNameInTable="total_area_hColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="total_judi" msprop:Generator_UserColumnName="total_judi" msprop:Generator_ColumnPropNameInRow="total_judi" msprop:Generator_ColumnVarNameInTable="columntotal_judi" msprop:Generator_ColumnPropNameInTable="total_judiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="nuksan" msprop:Generator_UserColumnName="nuksan" msprop:Generator_ColumnPropNameInRow="nuksan" msprop:Generator_ColumnVarNameInTable="columnnuksan" msprop:Generator_ColumnPropNameInTable="nuksanColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="zp_cess" msprop:Generator_UserColumnName="zp_cess" msprop:Generator_ColumnPropNameInRow="zp_cess" msprop:Generator_ColumnVarNameInTable="columnzp_cess" msprop:Generator_ColumnPropNameInTable="zp_cessColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="vp_cess" msprop:Generator_UserColumnName="vp_cess" msprop:Generator_ColumnPropNameInRow="vp_cess" msprop:Generator_ColumnVarNameInTable="columnvp_cess" msprop:Generator_ColumnPropNameInTable="vp_cessColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_UserColumnName="total" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInTable="totalColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
