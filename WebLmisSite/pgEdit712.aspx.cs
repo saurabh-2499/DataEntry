@@ -1783,7 +1783,7 @@ public partial class pgEdit712 : System.Web.UI.Page
 
                                                         if (ef7cnt > 0)
                                                         {
-                                                            con.funUpdateEditTables(Session["DataBaseName"].ToString(), Session["SchemaName"].ToString() + ".edit_form7", "boundry_id='" + Convert.ToString(Session["agriBoundryId"]).Trim() + "',local_name='" + Convert.ToString(Session["agriLocalName"]).Trim() + "' ", "ccode = '" + (string)Session["ccode"] + "' and pin='" + Convert.ToString(Session["pin"]) + "' and pin1='" + Convert.ToString(Session["pin1"]) + "' and  pin2='" + Convert.ToString(Session["pin2"]) + "' and pin3='" + Convert.ToString(Session["pin3"]) + "' and pin4='" + Convert.ToString(Session["pin4"]) + "' and pin5='" + Convert.ToString(Session["pin5"]) + "' and pin6='" + Convert.ToString(Session["pin6"]) + "'  and pin7='" + Convert.ToString(Session["pin7"]) + "' and pin8 ='" + Convert.ToString(Session["pin8"]) + "' ", ref dbCommand, Convert.ToString(Session["UserName"]));
+                                                            con.funUpdateEditTables(Session["DataBaseName"].ToString(), Session["SchemaName"].ToString() + ".edit_form7", "boundry_id='" + Convert.ToString(Session["agriBoundryId"]).Trim() + "',local_name='" + Convert.ToString(Session["agriLocalName"]).Trim() + "' , tenure_code='" + Convert.ToString(editf7.Rows[0]["tenure_code"]) + "',  tenure_sub_code='" + Convert.ToString(editf7.Rows[0]["tenure_sub_code"]) + "', tenure_sub_code1='" + Convert.ToString(editf7.Rows[0]["tenure_sub_code1"]) + "' ", "ccode = '" + (string)Session["ccode"] + "' and pin='" + Convert.ToString(Session["pin"]) + "' and pin1='" + Convert.ToString(Session["pin1"]) + "' and  pin2='" + Convert.ToString(Session["pin2"]) + "' and pin3='" + Convert.ToString(Session["pin3"]) + "' and pin4='" + Convert.ToString(Session["pin4"]) + "' and pin5='" + Convert.ToString(Session["pin5"]) + "' and pin6='" + Convert.ToString(Session["pin6"]) + "'  and pin7='" + Convert.ToString(Session["pin7"]) + "' and pin8 ='" + Convert.ToString(Session["pin8"]) + "' ", ref dbCommand, Convert.ToString(Session["UserName"]));
                                                         }
                                                         else
                                                         {
@@ -11513,7 +11513,10 @@ public partial class pgEdit712 : System.Web.UI.Page
         pnlPopup.Visible = false;
         if (txtAgriLocalName.Text.ToString().Trim() != string.Empty || txtBoundryId.Text.ToString().Trim() != string.Empty)
         {
-            
+            Session.Remove("agriLocalName");
+            Session.Remove("agriLocalNameNew");
+            Session.Remove("Deal_Local_name_old");
+            Session.Remove("Deal_Local_name_new");
             if (txtAgriLocalName.Text.ToString().Trim() != string.Empty )
             {
 

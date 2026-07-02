@@ -477,10 +477,10 @@ public partial class pgSecondDeclaration : System.Web.UI.Page
                         {
                             try
                             {
-                                objedit.funDeleteRecord(Convert.ToString(Session["DataBaseName"]), Convert.ToString(Session["SchemaName"]) + ".tbl_ewc_status", " ccode='" + Convert.ToString(Session["ccode"]) + "'", ref dbCmd);
-                                objedit.funDeleteRecord(Convert.ToString(Session["DataBaseName"]), Convert.ToString(Session["SchemaName"]) + ".tbl_ewc_officerdetails", " ccode='" + Convert.ToString(Session["ccode"]) + "'", ref dbCmd);
-                                objedit.funDeleteRecord(Convert.ToString(Session["DataBaseName"]), Convert.ToString(Session["SchemaName"]) + ".tblewc_proforma3", " ccode='" + Convert.ToString(Session["ccode"]) + "'", ref dbCmd);
-                                transaction.Commit();
+                                //objedit.funDeleteRecord(Convert.ToString(Session["DataBaseName"]), Convert.ToString(Session["SchemaName"]) + ".tbl_ewc_status", " ccode='" + Convert.ToString(Session["ccode"]) + "'", ref dbCmd);
+                                //objedit.funDeleteRecord(Convert.ToString(Session["DataBaseName"]), Convert.ToString(Session["SchemaName"]) + ".tbl_ewc_officerdetails", " ccode='" + Convert.ToString(Session["ccode"]) + "'", ref dbCmd);
+                                //objedit.funDeleteRecord(Convert.ToString(Session["DataBaseName"]), Convert.ToString(Session["SchemaName"]) + ".tblewc_proforma3", " ccode='" + Convert.ToString(Session["ccode"]) + "'", ref dbCmd);
+                                //transaction.Commit();
                                 connection.Close();
                                 this.OpenNewWindow(1, "rptDeclration_CrossCheck.aspx");
                                 this.OpenNewWindow(2, "rpt_summary.aspx");
