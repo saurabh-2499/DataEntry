@@ -1428,23 +1428,24 @@ namespace NIC.WebLMISLibrary
             #endregion
 
             #region [---exrta years  crop---]
-            foreach (DataRow drewc in dsEWCCheks.Tables[0].Select("wc_code=21"))
-            {
-                if (drewc["wc_code"].ToString() == "21")
-                {
-                    DataSet ds_exyr = new DataSet();
-                    string colvalue_exyr = "rtrim(((CASE WHEN a.pin<>'' THEN cast(a.pin as text)|| '/' WHEN a.pin='' THEN '' END)  ||(CASE WHEN a.pin1<>'' THEN cast(a.pin1 as text)|| '/' WHEN a.pin1='' THEN '' END) ||(CASE WHEN a.pin2<>'' THEN cast(a.pin2 as text)|| '/' WHEN a.pin2='' THEN '' END)  ||(CASE WHEN a.pin3<>'' THEN cast(a.pin3 as text)|| '/' WHEN a.pin3='' THEN '' END) ||(CASE WHEN a.pin4<>'' THEN cast(a.pin4 as text)|| '/' WHEN a.pin4='' THEN '' END)  ||(CASE WHEN a.pin5<>'' THEN cast(a.pin5 as text)|| '/' WHEN a.pin5='' THEN '' END)  ||(CASE WHEN a.pin6<>'' THEN cast(a.pin6 as text)|| '/' WHEN a.pin6='' THEN '' END)  ||(CASE WHEN a.pin7<>'' THEN cast(a.pin7 as text)|| '/' WHEN a.pin7='' THEN '' END)    ||(CASE WHEN a.pin8<>'' THEN cast(a.pin8 as text)|| '/' WHEN a.pin8='' THEN '' END)),'/')AS pincase,ccode,year_culti";
-                    if (System.DateTime.Now.Month > 7)
-                        ds_exyr = this.funReturnDataSet(databasname, schemaname + ".form12_main as  a ", " distinct " + colvalue_exyr, "a.ccode  ='" + ccode + "'and  year_culti>" + System.DateTime.Now.Year + "", "year_culti");
-                    else if (System.DateTime.Now.Month <= 7)
-                        ds_exyr = this.funReturnDataSet(databasname, schemaname + ".form12_main as  a ", " distinct " + colvalue_exyr, "a.ccode  ='" + ccode + "'and  year_culti>=" + System.DateTime.Now.Year + "", "year_culti");
-                    if (ds_exyr.Tables[0].Rows.Count > 0)
-                    {
-                        check21_extracrop = 1;
-                        blocks_ewc += "21,";
-                    }
-                }
-            }
+            //foreach (DataRow drewc in dsEWCCheks.Tables[0].Select("wc_code=21"))
+            //{
+            //    if (drewc["wc_code"].ToString() == "21")
+            //    {
+            //        DataSet ds_exyr = new DataSet();
+            //        string colvalue_exyr = "rtrim(((CASE WHEN a.pin<>'' THEN cast(a.pin as text)|| '/' WHEN a.pin='' THEN '' END)  ||(CASE WHEN a.pin1<>'' THEN cast(a.pin1 as text)|| '/' WHEN a.pin1='' THEN '' END) ||(CASE WHEN a.pin2<>'' THEN cast(a.pin2 as text)|| '/' WHEN a.pin2='' THEN '' END)  ||(CASE WHEN a.pin3<>'' THEN cast(a.pin3 as text)|| '/' WHEN a.pin3='' THEN '' END) ||(CASE WHEN a.pin4<>'' THEN cast(a.pin4 as text)|| '/' WHEN a.pin4='' THEN '' END)  ||(CASE WHEN a.pin5<>'' THEN cast(a.pin5 as text)|| '/' WHEN a.pin5='' THEN '' END)  ||(CASE WHEN a.pin6<>'' THEN cast(a.pin6 as text)|| '/' WHEN a.pin6='' THEN '' END)  ||(CASE WHEN a.pin7<>'' THEN cast(a.pin7 as text)|| '/' WHEN a.pin7='' THEN '' END)    ||(CASE WHEN a.pin8<>'' THEN cast(a.pin8 as text)|| '/' WHEN a.pin8='' THEN '' END)),'/')AS pincase,ccode,year_culti";
+            //        if (System.DateTime.Now.Month > 7)
+            //            ds_exyr = this.funReturnDataSet(databasname, schemaname + ".form12_main as  a ", " distinct " + colvalue_exyr, "a.ccode  ='" + ccode + "'and  year_culti>" + System.DateTime.Now.Year + "", "year_culti");
+            //        else if (System.DateTime.Now.Month <= 7)
+            //            ds_exyr = this.funReturnDataSet(databasname, schemaname + ".form12_main as  a ", " distinct " + colvalue_exyr, "a.ccode  ='" + ccode + "'and  year_culti>=" + System.DateTime.Now.Year + "", "year_culti");
+            //        if (ds_exyr.Tables[0].Rows.Count > 0)
+            //        {
+            //            check21_extracrop = 1;
+            //            blocks_ewc += "21,";
+            //        }
+            //    }
+            //}
+
             #endregion
 
             #region [---0% -100%---]
